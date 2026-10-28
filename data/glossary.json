@@ -1,0 +1,290 @@
+[
+ {
+  "term": "Hulling",
+  "def": "Removing the thin outer skin of the sesame seed so the inside is white and mild. The seed without skin is called hulled sesame."
+ },
+ {
+  "term": "Hulled",
+  "def": "Sesame seed with its outer skin removed. Whiter and milder; used for tahini, halawa and bread toppings."
+ },
+ {
+  "term": "Natural seed",
+  "def": "Sesame seed as it comes from the farm, cleaned but with its skin still on."
+ },
+ {
+  "term": "Tahini",
+  "def": "A paste made by roasting and grinding hulled sesame. Used in hummus, sauces and halawa."
+ },
+ {
+  "term": "Halawa",
+  "def": "A sweet made from tahini and sugar (also spelled halva)."
+ },
+ {
+  "term": "By-product",
+  "def": "Something left over when making the main product (skins, broken seeds, fibre). It can often be sold for extra income."
+ },
+ {
+  "term": "Production line",
+  "def": "A set of machines in the factory that turns one input into one main product, step by step."
+ },
+ {
+  "term": "Margin",
+  "def": "Money left from each tonne sold after paying for raw material and processing, before office and staff costs."
+ },
+ {
+  "term": "Break-even",
+  "def": "The sales volume at which income exactly covers all costs. Below it you lose money, above it you make profit."
+ },
+ {
+  "term": "Capex",
+  "def": "Money spent once on machines, buildings and installation (capital expenditure)."
+ },
+ {
+  "term": "Working capital",
+  "def": "Cash tied up in stock and unpaid customer invoices, needed to keep the business running."
+ },
+ {
+  "term": "Yield",
+  "def": "How much finished product you get from one tonne of raw material, as a percentage."
+ },
+ {
+  "term": "Toll processing",
+  "def": "Paying another factory to process your raw material for you, instead of owning machines."
+ },
+ {
+  "term": "Private label",
+  "def": "Making a product that a supermarket sells under its own brand name."
+ },
+ {
+  "term": "FOB",
+  "def": "'Free On Board': the price of goods loaded on the ship at the seller's port. The buyer pays sea freight from there."
+ },
+ {
+  "term": "Landed cost",
+  "def": "Total cost of goods once they reach your factory: purchase price plus shipping, insurance, port fees and trucking."
+ },
+ {
+  "term": "Tonne",
+  "def": "1,000 kilograms (one metric ton)."
+ },
+ {
+  "term": "Container",
+  "def": "A standard steel shipping box. A 20-foot container holds about 18–19 tonnes of seed."
+ },
+ {
+  "term": "Bonded zone",
+  "def": "A customs area where imported goods can be stored and processed without paying import duty, as long as they are re-exported."
+ },
+ {
+  "term": "SEZ",
+  "def": "Special Economic Zone: an area with lighter rules, tax and customs benefits to attract industry (e.g. Jazan)."
+ },
+ {
+  "term": "Re-export",
+  "def": "Selling abroad goods that were imported and processed in the country."
+ },
+ {
+  "term": "Customs clearance",
+  "def": "Getting imported goods officially released by customs (ZATCA in Saudi Arabia) after checking documents and paying any duty."
+ },
+ {
+  "term": "SFDA",
+  "def": "Saudi Food and Drug Authority. Licenses food factories and checks imported food."
+ },
+ {
+  "term": "Halal",
+  "def": "Certification that food meets Islamic dietary rules. Required for the Saudi and GCC markets."
+ },
+ {
+  "term": "FSSC 22000",
+  "def": "An international food-safety certificate for factories. Big food buyers ask for it."
+ },
+ {
+  "term": "BRCGS",
+  "def": "A food-safety certificate widely demanded by UK and EU supermarkets."
+ },
+ {
+  "term": "Salmonella",
+  "def": "Bacteria that can cause food poisoning. The main safety test for sesame."
+ },
+ {
+  "term": "Aflatoxin",
+  "def": "A natural poison made by mould on badly dried crops like peanuts and seeds. Strictly limited by law."
+ },
+ {
+  "term": "Pesticide limits",
+  "def": "Maximum amount of farm-chemical residue allowed in food. The EU's limits are among the strictest."
+ },
+ {
+  "term": "Steam sterilisation",
+  "def": "Treating the product with hot steam for a short time to kill bacteria without cooking it."
+ },
+ {
+  "term": "Colour sorter",
+  "def": "A machine with cameras that blows out dark or damaged seeds with air jets."
+ },
+ {
+  "term": "Phytosanitary certificate",
+  "def": "Government document confirming plant products are free of pests and diseases. Needed to export crops."
+ },
+ {
+  "term": "Certificate of origin",
+  "def": "Document stating which country the goods come from. Affects import duty."
+ },
+ {
+  "term": "SSMO",
+  "def": "Sudanese Standards and Metrology Organization: checks export quality in Sudan."
+ },
+ {
+  "term": "Pre-shipment inspection",
+  "def": "An independent company (e.g. SGS, Bureau Veritas) checks quality and weight before goods are loaded."
+ },
+ {
+  "term": "GAFTA",
+  "def": "Grain and Feed Trade Association: standard international contract rules for trading crops. (Also the name of the Arab free-trade area.)"
+ },
+ {
+  "term": "GCC",
+  "def": "Gulf Cooperation Council: Saudi Arabia, UAE, Kuwait, Qatar, Oman and Bahrain."
+ },
+ {
+  "term": "Saudi origin",
+  "def": "Goods count as 'Made in Saudi' only if enough processing happens in Saudi Arabia. This allows duty-free sales in the GCC."
+ },
+ {
+  "term": "Gum arabic",
+  "def": "A natural gum that drips from Acacia trees and dries into hard lumps. Used to keep flavours mixed in soft drinks and in sweets and medicines."
+ },
+ {
+  "term": "Hashab",
+  "def": "The best type of gum arabic, from the Acacia senegal tree."
+ },
+ {
+  "term": "Talha",
+  "def": "A cheaper type of gum arabic, from the Acacia seyal tree."
+ },
+ {
+  "term": "Kibbling",
+  "def": "Crushing gum arabic lumps into small even pieces so they dissolve easily."
+ },
+ {
+  "term": "Spray-drying",
+  "def": "Turning a liquid into fine powder by spraying it as a mist into hot air; the water evaporates instantly."
+ },
+ {
+  "term": "E414",
+  "def": "The official food-additive code for gum arabic on ingredient labels."
+ },
+ {
+  "term": "Emulsifier",
+  "def": "An ingredient that keeps oil and water mixed, like flavours in a soft drink."
+ },
+ {
+  "term": "Insolubles",
+  "def": "Bits that do not dissolve, such as bark and sand, filtered out of gum arabic."
+ },
+ {
+  "term": "Pharma grade",
+  "def": "Quality high enough for medicines, made under strict medicine-factory rules (GMP)."
+ },
+ {
+  "term": "GMP",
+  "def": "Good Manufacturing Practice: strict rules for factories making medicines or supplements."
+ },
+ {
+  "term": "Kosher",
+  "def": "Certification that food meets Jewish dietary rules. Often required by US buyers."
+ },
+ {
+  "term": "Baobab",
+  "def": "A large African tree. Its fruit has a dry, tangy powdery pulp sold as a 'superfood'. In Sudan it is called Tabaldi or Gongolez."
+ },
+ {
+  "term": "Superfood",
+  "def": "Marketing term for foods sold as especially healthy, like baobab powder."
+ },
+ {
+  "term": "Novel Food",
+  "def": "EU approval needed for foods that were not widely eaten in Europe before 1997. Baobab pulp was approved in 2008."
+ },
+ {
+  "term": "Organic",
+  "def": "Certified as grown or collected without synthetic chemicals. Sells at a higher price."
+ },
+ {
+  "term": "Cold-press",
+  "def": "Squeezing oil from seeds mechanically without heat, which keeps quality high."
+ },
+ {
+  "term": "Seed cake",
+  "def": "What remains after pressing oil from seeds. A protein-rich animal feed."
+ },
+ {
+  "term": "Karkade",
+  "def": "Arabic name for hibiscus (roselle). The dried red flower parts make a sour red drink."
+ },
+ {
+  "term": "Calyx",
+  "def": "The fleshy red part around the hibiscus flower that is dried and sold. Plural: calyces."
+ },
+ {
+  "term": "Calyces",
+  "def": "Plural of calyx: the dried red parts of the hibiscus flower that are sold."
+ },
+ {
+  "term": "Tea-bag cut",
+  "def": "Hibiscus cut into small even pieces that fit into tea bags."
+ },
+ {
+  "term": "Extract",
+  "def": "A concentrated product made by soaking the plant in hot water and removing most of the water."
+ },
+ {
+  "term": "Concentrate",
+  "def": "A thick syrup-like liquid that is diluted with water to make a drink."
+ },
+ {
+  "term": "Anthocyanin",
+  "def": "The natural red colour in hibiscus. Extracts are priced by how much they contain."
+ },
+ {
+  "term": "RTD",
+  "def": "Ready-to-drink: a drink sold in a bottle or can, ready to consume."
+ },
+ {
+  "term": "Excise",
+  "def": "An extra tax in Saudi Arabia on certain products, such as sweetened drinks."
+ },
+ {
+  "term": "Gedaref",
+  "def": "Region in eastern Sudan; the main sesame-growing area and market."
+ },
+ {
+  "term": "Port Sudan",
+  "def": "Sudan's main seaport on the Red Sea, about 1–2 days by ship from Jeddah."
+ },
+ {
+  "term": "Kordofan",
+  "def": "Large region in central Sudan; main area for gum arabic, hibiscus and baobab. Badly affected by the war."
+ },
+ {
+  "term": "Darfur",
+  "def": "Region in western Sudan; grows gum arabic, hibiscus and baobab. Hard to access due to the war."
+ },
+ {
+  "term": "Backup origin",
+  "def": "Another country you can buy the same crop from if supply from Sudan stops."
+ },
+ {
+  "term": "Off-spec",
+  "def": "Product that misses the agreed quality standard; usually sold cheaper for other uses."
+ },
+ {
+  "term": "Traceability",
+  "def": "Being able to show where each batch came from, step by step, back to the area where it was grown."
+ },
+ {
+  "term": "EU border checks",
+  "def": "Extra testing the EU applies to food from certain countries with past safety problems (EU Regulation 2019/1793)."
+ }
+]

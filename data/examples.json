@@ -1,0 +1,647 @@
+{
+ "_note": "Real companies and benchmarks per crop for the Start small view, from research on 29 Oct 2026. conf: high = company site/official/reputable news, med = trade press/directory/trade data, low = listing/unclear.",
+ "crops": {
+  "sesame": {
+   "steps": [
+    {
+     "en": "Start with one product and one anchor buyer: Soom Foods began with only tahini and one restaurant customer.",
+     "ar": "ابدأ بمنتج واحد ومشترٍ رئيسي واحد: بدأت Soom Foods بالطحينة فقط ومطعم واحد."
+    },
+    {
+     "en": "Buy hulled seed at first and make tahini. Add your own hulling line later, when volumes justify it.",
+     "ar": "اشترِ السمسم المقشور في البداية واصنع الطحينة، وأضف خط التقشير لاحقاً عندما تبرره الكميات."
+    },
+    {
+     "en": "Run a trial batch with an existing factory (toll processing) before buying machines.",
+     "ar": "نفّذ دفعة تجريبية لدى مصنع قائم (تصنيع بالأجر) قبل شراء الآلات."
+    },
+    {
+     "en": "Get the SFDA factory licence and Halal first; add FSSC 22000 when bigger buyers ask for it.",
+     "ar": "احصل على ترخيص الهيئة العامة للغذاء والدواء وشهادة الحلال أولاً، وأضف FSSC 22000 عندما يطلبها المشترون الكبار."
+    },
+    {
+     "en": "Sell to bakeries and food service first, then supermarket own-brand.",
+     "ar": "بِع للمخابز والمطاعم أولاً، ثم العلامات الخاصة للسوبرماركت."
+    },
+    {
+     "en": "Keep a second seed origin (Ethiopia, Nigeria) in case Sudan supply stops.",
+     "ar": "احتفظ بمصدر ثانٍ للبذور (إثيوبيا، نيجيريا) تحسباً لتوقف الإمداد من السودان."
+    }
+   ],
+   "buyers": [
+    {
+     "name": "Al Rashed Food Co.",
+     "where": "Riyadh",
+     "conf": "med",
+     "url": "https://www.gulftalent.com/companies/al-rashed-food-careers",
+     "what": {
+      "en": "Industrial bakery since 1991 with 2 bun lines. Says it has supplied McDonald's since 1993, plus KFC, Hardee's, Burger King and Subway. Buys hulled sesame for buns.",
+      "ar": "مخبز صناعي منذ 1991 بخطّي إنتاج للخبز المستدير (البن). يذكر أنه يورّد لماكدونالدز منذ 1993 وKFC وهارديز وبرجر كنج وصب واي. يشتري السمسم المقشور."
+     }
+    },
+    {
+     "name": "Almarai / L'usine bakery",
+     "where": "Riyadh",
+     "conf": "high",
+     "url": "https://www.almarai.com/en/brands/lusine/bakery/burger-buns-and-sandwich-roll/seasame-seeds-burger-buns",
+     "what": {
+      "en": "Makes sesame burger buns sold to Saudi burger chains. A large buyer with formal supplier approval.",
+      "ar": "تنتج خبز البرجر بالسمسم لسلاسل البرجر السعودية. مشترٍ كبير بإجراءات اعتماد موردين رسمية."
+     }
+    },
+    {
+     "name": "Panda Retail (Savola)",
+     "where": "Jeddah, nationwide",
+     "conf": "high",
+     "url": "https://www.arabnews.pk/business/saudi-retailer-panda-plans-over-20-store-openings-in-2025-says-coo-2589108",
+     "what": {
+      "en": "Supermarket chain with 200+ stores. Route for own-brand tahini and halawa (not yet confirmed that it runs such lines).",
+      "ar": "سلسلة سوبرماركت بأكثر من 200 فرع. مسار للطحينة والحلاوة بعلامة المتجر (لم يُتأكد بعد من وجود خطوط كهذه)."
+     }
+    },
+    {
+     "name": "Abdullah Al Othaim Markets",
+     "where": "Riyadh, nationwide",
+     "conf": "med",
+     "url": "https://en.wikipedia.org/wiki/Abdullah_Al-Othaim_Markets",
+     "what": {
+      "en": "About 415 Saudi branches (end 2025). Another own-brand route for tahini and halawa.",
+      "ar": "نحو 415 فرعاً في السعودية (نهاية 2025). مسار آخر للطحينة والحلاوة بعلامة المتجر."
+     }
+    }
+   ],
+   "competitors": [
+    {
+     "name": "Halwani Bros (Tadawul 6001)",
+     "where": "Jeddah",
+     "conf": "high",
+     "url": "https://www.argaam.com/en/financial-reports/company-report/918/2025/1",
+     "what": {
+      "en": "Market leader in tahini and halawa. Revenue SAR 904 million in 2025, gross margin 28.6%.",
+      "ar": "رائدة السوق في الطحينة والحلاوة. إيرادات 904 ملايين ريال في 2025 وهامش إجمالي 28.6%."
+     }
+    },
+    {
+     "name": "Al Jameel International Trading",
+     "where": "Jeddah (branches in Riyadh, Dammam and others)",
+     "conf": "med",
+     "url": "https://www.foodcodirectory.com/2021/09/al-jameel-international-jeddah-saudi.html",
+     "what": {
+      "en": "Jeddah wholesaler of nuts, spices, tahini and halva with branches in Riyadh, Dammam, Qassim, Tabuk, Medina and Khamis Mushait. Trade data also lists it among the top 3 importers of hulled sesame.",
+      "ar": "تاجر جملة في جدة للمكسرات والبهارات والطحينة والحلاوة، بفروع في الرياض والدمام والقصيم وتبوك والمدينة وخميس مشيط. وتذكره بيانات التجارة ضمن أكبر 3 مستوردين للسمسم المقشور."
+     }
+    },
+    {
+     "name": "Almona Co. (tahini and halawa)",
+     "where": "Riyadh, 2nd Industrial City",
+     "conf": "med",
+     "url": "https://www.gulfood.com/exhibitors/almona-co-for-production-of-tahini-halwa-tahini",
+     "what": {
+      "en": "Tahini and halawa maker; exhibits at Gulfood.",
+      "ar": "مصنع طحينة وحلاوة؛ يشارك في معرض جلفود."
+     }
+    },
+    {
+     "name": "Al Jabal Factory",
+     "where": "Dammam",
+     "conf": "low",
+     "url": "https://aljabalfactory.com/about-us/?lang=en",
+     "what": {
+      "en": "Tahini and halawa since 1996.",
+      "ar": "طحينة وحلاوة منذ 1996."
+     }
+    },
+    {
+     "name": "Al Jood Food Factory",
+     "where": "Oman",
+     "conf": "med",
+     "url": "https://www.gulfood.com/gulfood-2026-press-releases/al-jood-food-factory",
+     "what": {
+      "en": "Halawa and tahini maker selling into Saudi Arabia.",
+      "ar": "مصنع حلاوة وطحينة يبيع في السعودية."
+     }
+    }
+   ],
+   "examples": [
+    {
+     "name": "Soom Foods",
+     "where": "USA (Philadelphia)",
+     "conf": "high",
+     "url": "https://www.foodnavigator.com/Article/2017/11/29/Soom-Foods-The-aim-is-to-make-tahini-a-pantry-staple-in-food-service-and-at-home/",
+     "what": {
+      "en": "Three sisters started (around 2013) with one product, tahini from Ethiopian sesame. About 20,000 lb sold in the first year, over 500,000 lb by 2017, 65% to restaurants, no outside funding.",
+      "ar": "بدأت ثلاث أخوات (نحو 2013) بمنتج واحد هو الطحينة من سمسم إثيوبي. باعت نحو 9 أطنان في السنة الأولى وأكثر من 225 طناً بحلول 2017، 65% منها للمطاعم، دون تمويل خارجي."
+     },
+     "lesson": {
+      "en": "One product, one anchor customer (chef Michael Solomonov's restaurant), then grow through restaurants.",
+      "ar": "منتج واحد ومشترٍ رئيسي واحد (مطعم الطاهي مايكل سولومونوف)، ثم النمو عبر المطاعم."
+     }
+    },
+    {
+     "name": "Al Arz Tahini",
+     "where": "Nazareth",
+     "conf": "med",
+     "url": "https://en.wikipedia.org/wiki/Julia_Zaher",
+     "what": {
+      "en": "A small family factory in debt in 2003; a new owner upgraded quality. Now 2 factories making 20–25 t a day, exporting to 18 countries.",
+      "ar": "مصنع عائلي صغير كان مديناً في 2003؛ رفعت المالكة الجديدة الجودة. اليوم مصنعان ينتجان 20–25 طناً يومياً ويصدّران إلى 18 دولة."
+     },
+     "lesson": {
+      "en": "Quality and a clear origin story (Ethiopian Humera sesame) built an export brand.",
+      "ar": "الجودة وقصة منشأ واضحة (سمسم حُميرة الإثيوبي) صنعت علامة تصديرية."
+     }
+    },
+    {
+     "name": "Al Wadi Al Akhdar",
+     "where": "Lebanon",
+     "conf": "med",
+     "url": "https://en.wikipedia.org/wiki/Al-Wadi_Al-Akhdar",
+     "what": {
+      "en": "Started in 1979 with 3 staples (hummus-tahini, ful, chickpeas); now 150+ products in 25+ countries.",
+      "ar": "بدأت في 1979 بثلاثة منتجات أساسية (حمص بطحينة، فول، حمص حب)؛ اليوم أكثر من 150 منتجاً في أكثر من 25 دولة."
+     },
+     "lesson": {
+      "en": "Start narrow, widen the range once the brand is trusted.",
+      "ar": "ابدأ بتشكيلة ضيقة ووسّعها عندما تكسب العلامة الثقة."
+     }
+    },
+    {
+     "name": "Agventure Commodities",
+     "where": "Nigeria (Kano)",
+     "conf": "med",
+     "url": "https://millingmea.com/agventure-commodities-inaugurates-new-sesame-processing-facility-in-kano-nigeria/",
+     "what": {
+      "en": "A commodity trader that added a 7,000 t a year hulling unit (about 19 t a day) with about 300 jobs.",
+      "ar": "تاجر سلع أضاف وحدة تقشير بطاقة 7,000 طن سنوياً (نحو 19 طناً يومياً) ونحو 300 وظيفة."
+     },
+     "lesson": {
+      "en": "Trade first, then add processing once you know the buyers.",
+      "ar": "تاجر أولاً، ثم أضف التصنيع عندما تعرف المشترين."
+     }
+    },
+    {
+     "name": "Smasim Ridding",
+     "where": "Port Sudan",
+     "conf": "low",
+     "url": "https://samasimgroup.com/en/our-companies/smasim-riding/",
+     "what": {
+      "en": "Sesame cleaning and sorting plant (2019): 4 lines of 5 t/h with optical sorters. Calls itself Sudan's largest.",
+      "ar": "مصنع تنظيف وفرز سمسم (2019): 4 خطوط بطاقة 5 أطنان/ساعة مع فرّازات ضوئية. يصف نفسه بالأكبر في السودان."
+     }
+    }
+   ],
+   "equipment": [
+    {
+     "name": "Tahini colloid mill",
+     "where": "China (listings)",
+     "conf": "low",
+     "url": "https://www.accio.ai/find-product/tahini-paste-manufacturing-plant-cost",
+     "what": {
+      "en": "About $1,400–3,500 per mill.",
+      "ar": "نحو 1,400–3,500 دولار للمطحنة."
+     }
+    },
+    {
+     "name": "Complete small tahini / nut-paste line",
+     "where": "China (listings)",
+     "conf": "low",
+     "url": "https://www.accio.ai/find-product/tahini-paste-manufacturing-plant-cost",
+     "what": {
+      "en": "About $11,000–21,000 per set (before shipping, installation and certification).",
+      "ar": "نحو 11,000–21,000 دولار للخط (قبل الشحن والتركيب والشهادات)."
+     }
+    },
+    {
+     "name": "Sesame colour sorter, 1 t/h",
+     "where": "India (listing)",
+     "conf": "low",
+     "url": "https://www.indiamart.com/proddetail/sesame-color-sorting-machine-2854331055155.html",
+     "what": {
+      "en": "About ₹15 lakh (≈ $17–18k).",
+      "ar": "نحو 15 لاك روبية (≈ 17–18 ألف دولار)."
+     }
+    },
+    {
+     "name": "Sesame hulling plant, 0.5–2 t/h",
+     "where": "India (Forsberg)",
+     "conf": "low",
+     "url": "https://www.tradeindia.com/products/de-hulling-machines-32683.html",
+     "what": {
+      "en": "Turnkey plants of 500–2,000 kg/h; price on request. No published price found for a small hulling line.",
+      "ar": "مصانع جاهزة بطاقة 500–2,000 كغ/ساعة؛ السعر عند الطلب. لم نجد سعراً منشوراً لخط تقشير صغير."
+     }
+    }
+   ]
+  },
+  "gum": {
+   "steps": [
+    {
+     "en": "Start with cleaning, sorting and crushing (kibbling). Leave spray drying for later or use a toll processor.",
+     "ar": "ابدأ بالتنظيف والفرز والتكسير. أجّل التجفيف بالرذاذ أو استعن بمصنع يعمل بالأجر."
+    },
+    {
+     "en": "Saudi Arabia buys only about 340 t a year, so plan exports to Europe, the US or Asia from day one.",
+     "ar": "السعودية تستورد نحو 340 طناً فقط سنوياً، فخطّط للتصدير إلى أوروبا وأمريكا وآسيا من البداية."
+    },
+    {
+     "en": "Prove where every batch came from: buyers fear gum from conflict areas.",
+     "ar": "أثبت مصدر كل دفعة: المشترون يتخوفون من صمغ مناطق النزاع."
+    },
+    {
+     "en": "Meet E414 food-additive specifications and get Halal and Kosher certificates.",
+     "ar": "التزم بمواصفات المضاف الغذائي E414 واحصل على شهادتي الحلال والكوشر."
+    },
+    {
+     "en": "Keep backup supply from Chad and Nigeria.",
+     "ar": "احتفظ بإمداد بديل من تشاد ونيجيريا."
+    }
+   ],
+   "buyers": [
+    {
+     "name": "Nahdi Medical",
+     "where": "Jeddah, nationwide",
+     "conf": "high",
+     "url": "https://www.zawya.com/en/press-release/companies-news/nahdi-sustains-growth-momentum-delivering-7.6-revenue-growth-in-9m-2025-518179",
+     "what": {
+      "en": "1,222 pharmacies (end 2025). Retail route for packed gum arabic as a fibre supplement.",
+      "ar": "1,222 صيدلية (نهاية 2025). مسار بيع للصمغ العربي المعبأ كمكمّل ألياف."
+     }
+    }
+   ],
+   "competitors": [
+    {
+     "name": "Naturia",
+     "where": "Egypt",
+     "conf": "med",
+     "url": "https://visitor.figlobal.com/event/fi-africa-and-propak-mena-3/product/UHJvZHVjdF8xMjg5NjI5",
+     "what": {
+      "en": "Processes gum arabic into powder, including spray-dried. Regional competitor or possible toll processor.",
+      "ar": "تصنّع الصمغ العربي إلى مسحوق بما فيه المجفف بالرذاذ. منافس إقليمي أو مصنع محتمل بالأجر."
+     }
+    },
+    {
+     "name": "Nexira",
+     "where": "France",
+     "conf": "med",
+     "url": "https://www.nexira.com/",
+     "what": {
+      "en": "World leader in acacia gum, based in France, with large spray-drying plants (company site).",
+      "ar": "الرائدة عالمياً في الصمغ العربي، مقرها فرنسا، وتدير مصانع تجفيف بالرذاذ كبيرة (موقع الشركة)."
+     }
+    },
+    {
+     "name": "Alland & Robert",
+     "where": "France",
+     "conf": "med",
+     "url": "https://www.confectioneryproduction.com/news/32242/alland-robert-confirms-e11-million-expansion-of-acacia-gum-production-site/",
+     "what": {
+      "en": "Family firm since 1884: about 70 staff, €45 million turnover (2019), about 20,000 t a year.",
+      "ar": "شركة عائلية منذ 1884: نحو 70 موظفاً، ومبيعات 45 مليون يورو (2019)، ونحو 20,000 طن سنوياً."
+     }
+    }
+   ],
+   "examples": [
+    {
+     "name": "Afritec",
+     "where": "Sudan (Khartoum)",
+     "conf": "high",
+     "url": "https://www.gulf-times.com/story/623457/sudans-gum-arabic-dealers-shrug-off-strife-to-tap-fizzy-drink-market",
+     "what": {
+      "en": "Cleans, dries and processes gum, then ships it to France for refining; about 17,000 t a year (Reuters, 2019).",
+      "ar": "تنظّف الصمغ وتجففه وتعالجه ثم تشحنه إلى فرنسا للتكرير؛ نحو 17,000 طن سنوياً (رويترز، 2019)."
+     },
+     "lesson": {
+      "en": "Small players clean and crush at origin; the big French refiners do the spray drying.",
+      "ar": "اللاعبون الصغار ينظفون ويكسّرون في بلد المنشأ؛ والمصافي الفرنسية الكبرى تجفف بالرذاذ."
+     }
+    },
+    {
+     "name": "Khartoum Gum Arabic Processing Co.",
+     "where": "Port Sudan",
+     "conf": "med",
+     "url": "https://www.ide.go.jp/English/Data/Africa_file/Company/sudan06.html",
+     "what": {
+      "en": "Makes kibbled and powdered gum to order (2008–09 profile).",
+      "ar": "تنتج صمغاً مكسّراً ومسحوقاً حسب الطلب (ملف 2008–2009)."
+     }
+    },
+    {
+     "name": "Alland & Robert",
+     "where": "France",
+     "conf": "med",
+     "url": "https://www.confectioneryproduction.com/news/32242/alland-robert-confirms-e11-million-expansion-of-acacia-gum-production-site/",
+     "what": {
+      "en": "Only about 70 staff run a 20,000 t a year refinery, so the business is capital, not people.",
+      "ar": "نحو 70 موظفاً فقط يديرون مصفاة بطاقة 20,000 طن سنوياً؛ فالعمل يعتمد على رأس المال لا على العمالة."
+     },
+     "lesson": {
+      "en": "Spray drying needs scale and capital; it is phase 2, not the first step.",
+      "ar": "التجفيف بالرذاذ يحتاج حجماً ورأس مال؛ إنه مرحلة ثانية لا خطوة أولى."
+     }
+    }
+   ],
+   "equipment": [
+    {
+     "name": "Gum grinder / hammer mill",
+     "where": "China (listings)",
+     "conf": "low",
+     "url": "https://www.alibaba.com/product-detail/VIDEO-WJT-Malaysia-guar-arabic-gum_60843878475.html",
+     "what": {
+      "en": "About $4,000–8,000 (sample prices); a 50–1,000 kg/h grinder about $20,000.",
+      "ar": "نحو 4,000–8,000 دولار (أسعار عينات)؛ ومطحنة 50–1,000 كغ/ساعة بنحو 20,000 دولار."
+     }
+    },
+    {
+     "name": "Gum arabic spray dryer",
+     "where": "China (listing)",
+     "conf": "low",
+     "url": "https://www.alibaba.com/product-introduction/Gum-Arabic-Powder-Spray-Drying-Machine_1600719842136.html",
+     "what": {
+      "en": "About $11,900 for the dryer alone. A full line also needs dissolving tanks, filters, a pasteuriser and powder handling, so the real budget is several times higher.",
+      "ar": "نحو 11,900 دولار للمجفف وحده. الخط الكامل يحتاج خزانات إذابة ومرشحات ومبستراً ومعالجة مسحوق، فالميزانية الحقيقية أضعاف ذلك."
+     }
+    }
+   ]
+  },
+  "baobab": {
+   "steps": [
+    {
+     "en": "Secure supply first: every successful baobab firm built a network of 1,000–6,000 collectors, mostly women.",
+     "ar": "أمّن الإمداد أولاً: كل شركة تبلدي ناجحة بنت شبكة من 1,000–6,000 جامع، معظمهم من النساء."
+    },
+    {
+     "en": "Sell to the existing approvals: EU Novel Food (2008) and US GRAS (2009) already cover baobab pulp.",
+     "ar": "استفد من الموافقات القائمة: موافقة الأغذية الجديدة الأوروبية (2008) وGRAS الأمريكية (2009) تغطيان لب التبلدي."
+    },
+    {
+     "en": "Start with a mill and sieve; separate pulp by hand before buying a $11k+ separator.",
+     "ar": "ابدأ بمطحنة ومنخل؛ افصل اللب يدوياً قبل شراء فرّازة بأكثر من 11 ألف دولار."
+    },
+    {
+     "en": "Test every batch for bacteria and heat-treat the powder.",
+     "ar": "افحص كل دفعة للبكتيريا وعالج المسحوق حرارياً."
+    },
+    {
+     "en": "Choose a lane: your own brand (like Aduna) or ingredient sales to brands (like Baobab Foods).",
+     "ar": "اختر مساراً: علامة خاصة بك (مثل Aduna) أو بيع المكوّن لعلامات أخرى (مثل Baobab Foods)."
+    }
+   ],
+   "buyers": [
+    {
+     "name": "Habhaboh",
+     "where": "Jeddah",
+     "conf": "high",
+     "url": "https://www.arabnews.com/food-health/startup-of-the-week-a-modern-twist-to-an-old-tradition-1545701",
+     "what": {
+      "en": "Saudi baobab (and doum) brand since 2017, in 200+ shops. Possible buyer of powder, and a competitor.",
+      "ar": "علامة سعودية للتبلدي (والدوم) منذ 2017، في أكثر من 200 متجر. مشترٍ محتمل للمسحوق ومنافس أيضاً."
+     }
+    },
+    {
+     "name": "Nahdi Medical",
+     "where": "Jeddah, nationwide",
+     "conf": "high",
+     "url": "https://www.zawya.com/en/press-release/companies-news/nahdi-sustains-growth-momentum-delivering-7.6-revenue-growth-in-9m-2025-518179",
+     "what": {
+      "en": "1,222 pharmacies; retail route for baobab powder as a supplement.",
+      "ar": "1,222 صيدلية؛ مسار بيع لمسحوق التبلدي كمكمّل."
+     }
+    }
+   ],
+   "competitors": [
+    {
+     "name": "Habhaboh",
+     "where": "Jeddah",
+     "conf": "high",
+     "url": "https://www.arabnews.com/food-health/startup-of-the-week-a-modern-twist-to-an-old-tradition-1545701",
+     "what": {
+      "en": "Calls itself the first Saudi trademarked baobab brand.",
+      "ar": "تصف نفسها بأول علامة تبلدي سعودية مسجلة."
+     }
+    }
+   ],
+   "examples": [
+    {
+     "name": "Aduna",
+     "where": "UK (sources from Ghana and Burkina Faso)",
+     "conf": "med",
+     "url": "https://www.iied.org/aduna-opening-new-opportunities-for-smallholder-producers-africa",
+     "what": {
+      "en": "Started 2012; worked with about 1,100 women collectors in 2015; raised about $1.15 million; won a £100k marketing prize.",
+      "ar": "بدأت 2012؛ عملت مع نحو 1,100 امرأة جامعة في 2015؛ جمعت نحو 1.15 مليون دولار؛ وفازت بجائزة تسويق 100 ألف جنيه."
+     },
+     "lesson": {
+      "en": "Demand had to be created with marketing (#MakeBaobabFamous) before volumes grew.",
+      "ar": "كان لا بد من خلق الطلب بالتسويق قبل نمو الكميات."
+     }
+    },
+    {
+     "name": "B'Ayoba / KaZa Natural Oils",
+     "where": "Zimbabwe",
+     "conf": "med",
+     "url": "https://www.howwemadeitinafrica.com/p/zimbabwe-based-entrepreneur-wants-to-create-a-global-market-for-baobab",
+     "what": {
+      "en": "Started 2012; about 1,500 t of fruit a year from 2,000–6,000 registered harvesters, mostly women; FairWild and organic certified.",
+      "ar": "بدأت 2012؛ نحو 1,500 طن من الثمار سنوياً من 2,000–6,000 جامع مسجل، أغلبهم نساء؛ بشهادتي FairWild والعضوية."
+     },
+     "lesson": {
+      "en": "Certification (organic, FairWild) opens premium buyers.",
+      "ar": "الشهادات (عضوي، FairWild) تفتح أبواب المشترين بسعر أعلى."
+     }
+    },
+    {
+     "name": "Baobab Products Mozambique",
+     "where": "Mozambique",
+     "conf": "med",
+     "url": "https://seed.uno/enterprise-profiles/baobab-products-mozambique",
+     "what": {
+      "en": "2014 SEED Africa Award winner. Trained over 200 women harvesters in Manica province, who supply pulp and seed and can become shareholders.",
+      "ar": "فائزة بجائزة SEED أفريقيا 2014. درّبت أكثر من 200 امرأة جامعة في إقليم مانيكا، يوردن اللب والبذور ويمكنهن أن يصبحن مساهمات."
+     },
+     "lesson": {
+      "en": "Sharing ownership with collectors keeps supply loyal.",
+      "ar": "مشاركة الملكية مع الجامعين تضمن ولاء الإمداد."
+     }
+    },
+    {
+     "name": "Baobab Fruit Company Senegal",
+     "where": "Senegal",
+     "conf": "low",
+     "url": "https://baobab-supply.blogspot.com/2010_05_07_archive.html",
+     "what": {
+      "en": "2010: about 950 collectors, about 100 plant staff, 150–200 t of raw material a year, selling to EU supplement and cosmetics buyers.",
+      "ar": "2010: نحو 950 جامعاً ونحو 100 عامل و150–200 طن مادة خام سنوياً، تبيع لمشترين أوروبيين في المكملات ومستحضرات التجميل."
+     }
+    }
+   ],
+   "equipment": [
+    {
+     "name": "Baobab pulp separator, 500 kg/h",
+     "where": "China (listing)",
+     "conf": "low",
+     "url": "",
+     "what": {
+      "en": "About $11,500 per set.",
+      "ar": "نحو 11,500 دولار للوحدة."
+     }
+    },
+    {
+     "name": "Small hammer mill and sieve",
+     "where": "Listings",
+     "conf": "low",
+     "url": "",
+     "what": {
+      "en": "Desktop mill about $630; industrial vibrating sieve $1,400–4,060.",
+      "ar": "مطحنة صغيرة نحو 630 دولاراً؛ منخل اهتزازي صناعي 1,400–4,060 دولاراً."
+     }
+    },
+    {
+     "name": "Screw oil press 6YL-80 (2–3 t a day)",
+     "where": "China (listings)",
+     "conf": "low",
+     "url": "",
+     "what": {
+      "en": "About $1,100–1,400 for seed oil.",
+      "ar": "نحو 1,100–1,400 دولار لعصر زيت البذور."
+     }
+    }
+   ]
+  },
+  "hibiscus": {
+   "steps": [
+    {
+     "en": "Start with cleaning, steam treatment and tea-bag cut; these need few machines.",
+     "ar": "ابدأ بالتنظيف والمعالجة بالبخار والتقطيع للأكياس؛ تحتاج آلات قليلة."
+    },
+    {
+     "en": "Treat pest control as essential: Nigeria lost the Mexican market in 2018 after pests were found.",
+     "ar": "اعتبر مكافحة الآفات أساسية: خسرت نيجيريا السوق المكسيكي في 2018 بعد اكتشاف آفات."
+    },
+    {
+     "en": "Approach Saudi tea and spice packers with samples and test results.",
+     "ar": "تواصل مع شركات تعبئة الشاي والبهارات في السعودية بعينات ونتائج فحوص."
+    },
+    {
+     "en": "Plan stock for the Ramadan peak.",
+     "ar": "خطّط المخزون لذروة رمضان."
+    },
+    {
+     "en": "Add syrup or extract later, once you have steady buyers.",
+     "ar": "أضف الشراب أو المستخلص لاحقاً بعد أن يصبح لديك مشترون ثابتون."
+    }
+   ],
+   "buyers": [
+    {
+     "name": "AMS Baeshen (Rabea Tea)",
+     "where": "Jeddah",
+     "conf": "high",
+     "url": "https://saudigazette.com.sa/article/98095",
+     "what": {
+      "en": "Says it runs the largest tea factory in Saudi Arabia (blending and packing since 1995) and sells herbal teas, including hibiscus.",
+      "ar": "تذكر أنها تدير أكبر مصنع شاي في السعودية (خلط وتعبئة منذ 1995) وتبيع شاي أعشاب منها الكركديه."
+     }
+    },
+    {
+     "name": "Al Rabie Saudi Foods (Alattar)",
+     "where": "Riyadh",
+     "conf": "med",
+     "url": "https://www.spinneys.com/en-sa/catalogue/alattar-hibiscus-tea-15g-x-20-tea-bags_77125/",
+     "what": {
+      "en": "Juice and dairy maker (1980) that sells Alattar hibiscus tea bags. Buyer of tea-cut hibiscus or extract.",
+      "ar": "شركة عصائر وألبان (1980) تبيع أكياس كركديه بعلامة العطار. مشترٍ للكركديه المقطع أو المستخلص."
+     }
+    },
+    {
+     "name": "Esnad",
+     "where": "Jeddah",
+     "conf": "med",
+     "url": "https://esnadfood.com/en/buisness-partners/",
+     "what": {
+      "en": "Spice and herb packer since 1989, selling in Saudi Arabia, UAE, Egypt and Iraq.",
+      "ar": "شركة تعبئة بهارات وأعشاب منذ 1989، تبيع في السعودية والإمارات ومصر والعراق."
+     }
+    },
+    {
+     "name": "Almarai (Peach & Hibiscus Ice Tea)",
+     "where": "Riyadh",
+     "conf": "med",
+     "url": "https://www.carrefourksa.com/mafsau/en/iced-tea/ice-leaf-peach-hibiscus-tea-240ml/p/738030",
+     "what": {
+      "en": "Sells a peach and hibiscus iced tea in Saudi supermarkets. A large drink maker that could buy hibiscus extract or concentrate.",
+      "ar": "تبيع شاي مثلجاً بالخوخ والكركديه في متاجر السعودية. شركة مشروبات كبيرة قد تشتري مستخلص أو مركّز الكركديه."
+     }
+    }
+   ],
+   "competitors": [
+    {
+     "name": "Afia (Savola)",
+     "where": "Jeddah",
+     "conf": "low",
+     "url": "https://www.spinneys.com/en-sa/catalogue/afia-hibiscus_74829/",
+     "what": {
+      "en": "Retail dried hibiscus on Saudi shelves.",
+      "ar": "كركديه مجفف بالتجزئة على رفوف السعودية."
+     }
+    },
+    {
+     "name": "Egyptian exporters",
+     "where": "Egypt (Aswan, Qena)",
+     "conf": "low",
+     "url": "https://dir.tridge.com/prices/dried-hibiscus-flower/EG",
+     "what": {
+      "en": "About 22,000 t exported in 2024 (unverified) at about $3.30–4.00/kg.",
+      "ar": "نحو 22,000 طن صُدّرت في 2024 (غير مؤكد) بنحو 3.30–4.00 دولار/كغ."
+     }
+    }
+   ],
+   "examples": [
+    {
+     "name": "Nigeria's hibiscus exporters",
+     "where": "Nigeria (Kano)",
+     "conf": "med",
+     "url": "https://guardian.ng/features/hibiscus-nigeria-loses-112-78m-to-mexicos-ban/",
+     "what": {
+      "en": "Exported about $35 million in 9 months of 2017, mostly to Mexico, then lost that market in 2018 over pests; reopened after a fumigation centre was built.",
+      "ar": "صدّرت نحو 35 مليون دولار في 9 أشهر من 2017، معظمها للمكسيك، ثم خسرت السوق في 2018 بسبب الآفات؛ وعادت بعد إنشاء مركز تبخير."
+     },
+     "lesson": {
+      "en": "One buyer country and weak pest control can wipe out a business.",
+      "ar": "الاعتماد على بلد مشترٍ واحد وضعف مكافحة الآفات قد يقضي على المشروع."
+     }
+    },
+    {
+     "name": "Arin Alosood",
+     "where": "Sudan (Khartoum)",
+     "conf": "low",
+     "url": "https://www.tradeindia.com/products/hibiscus-flower-2849536.html",
+     "what": {
+      "en": "Exporter since 2015 of gum arabic, dried hibiscus and sesame.",
+      "ar": "مصدّر منذ 2015 للصمغ العربي والكركديه المجفف والسمسم."
+     }
+    }
+   ],
+   "equipment": [
+    {
+     "name": "Herb / tea cutter",
+     "where": "China (listings)",
+     "conf": "low",
+     "url": "",
+     "what": {
+      "en": "About $600–1,000 for basic models; $2,200–6,500 mid-range.",
+      "ar": "نحو 600–1,000 دولار للنماذج البسيطة؛ 2,200–6,500 للمتوسطة."
+     }
+    },
+    {
+     "name": "Herb steam sterilizer",
+     "where": "China (listing)",
+     "conf": "low",
+     "url": "",
+     "what": {
+      "en": "About $11,600–18,000 for an industrial unit.",
+      "ar": "نحو 11,600–18,000 دولار لوحدة صناعية."
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "kinds": [
+  {
+   "id": "product",
+   "label": "Products",
+   "shape": "Circle"
+  },
+  {
+   "id": "byproduct",
+   "label": "Leftovers (by-products)",
+   "shape": "Diamond"
+  },
+  {
+   "id": "line",
+   "label": "Factory lines",
+   "shape": "Square"
+  },
+  {
+   "id": "step",
+   "label": "Steps",
+   "shape": "Circle"
+  },
+  {
+   "id": "place",
+   "label": "Places",
+   "shape": "Circle"
+  },
+  {
+   "id": "buyer",
+   "label": "Buyers & suppliers",
+   "shape": "Triangle"
+  },
+  {
+   "id": "price",
+   "label": "Money",
+   "shape": "Star"
+  },
+  {
+   "id": "risk",
+   "label": "Rules & risks",
+   "shape": "Cross"
+  }
+ ],
+ "regions": [
+  {
+   "id": "Sudan",
+   "label": "Sudan"
+  },
+  {
+   "id": "Alt origin",
+   "label": "Backup countries"
+  },
+  {
+   "id": "Transit",
+   "label": "On the way (truck & ship)"
+  },
+  {
+   "id": "KSA",
+   "label": "Saudi Arabia"
+  },
+  {
+   "id": "GCC",
+   "label": "Gulf countries"
+  },
+  {
+   "id": "MENA",
+   "label": "Middle East"
+  },
+  {
+   "id": "Europe",
+   "label": "Europe"
+  },
+  {
+   "id": "Asia",
+   "label": "Asia"
+  },
+  {
+   "id": "Americas",
+   "label": "Americas"
+  },
+  {
+   "id": "Africa",
+   "label": "Africa"
+  },
+  {
+   "id": "Global",
+   "label": "Worldwide"
+  }
+ ]
+}

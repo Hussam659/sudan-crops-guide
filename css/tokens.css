@@ -1,0 +1,61 @@
+/* Design tokens. Light is default; dark via OS setting or [data-theme]. */
+:root {
+  /* neutrals */
+  --bg: #F4F6F5; --surface: #FFFFFF; --sunken: #EDF0EF;
+  --fg: #12201C; --fg-2: #3A4743; --muted: #5E6B67; --line: #DCE2E0; --line-strong: #C3CCC9; --control: #7D8C87;
+  /* brand */
+  --brand: #0F5B4F; --brand-fg: #FFFFFF; --brand-soft: #E3F0EC; --focus: #1B7F6E;
+  /* crops */
+  --c-sesame: #9A600E; --c-gum: #B04A1A; --c-baobab: #3A7535; --c-hib: #A31F55;
+  /* status */
+  --good: #2E7D4F; --warn: #9A6A00; --risk: #B3261E;
+  /* stage accents (10, in time order) */
+  --s0: #336B4B; --s1: #2F6690; --s2: #5B57A6; --s3: #22697A; --s4: #7A5195;
+  --s5: #A0441F; --s6: #A93766; --s7: #3E7026; --s8: #82580A; --s9: #5F6B7A;
+
+  /* type */
+  --font-head: "Schibsted Grotesk", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --t-xs: 0.8125rem;  /* 13px: smallest allowed */
+  --t-sm: 0.875rem; --t-md: 1rem; --t-lg: 1.125rem; --t-xl: 1.375rem; --t-2xl: 1.75rem; --t-3xl: 2.25rem;
+
+  /* space (4px scale), radius, shadow */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 24px; --sp-6: 32px; --sp-7: 48px;
+  --r-sm: 6px; --r-md: 10px; --r-lg: 16px; --r-pill: 999px;
+  --shadow-1: 0 1px 2px rgb(16 32 28 / .06), 0 1px 3px rgb(16 32 28 / .08);
+  --shadow-2: 0 4px 12px rgb(16 32 28 / .08), 0 12px 32px rgb(16 32 28 / .10);
+
+  --header-h: 60px; --nav-h: 64px;
+  color-scheme: light;
+}
+
+:root[lang="ar"] {
+  --font-head: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans Arabic", system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1513; --surface: #161F1C; --sunken: #111917;
+    --fg: #E8EEEC; --fg-2: #C2CCC9; --muted: #93A19C; --line: #26322E; --line-strong: #364540; --control: #6E807A;
+    --brand: #4FB7A1; --brand-fg: #06201A; --brand-soft: #18302A; --focus: #6FD0BA;
+    --c-sesame: #E0A64A; --c-gum: #EE8A5A; --c-baobab: #84C27B; --c-hib: #EE7AA6;
+    --good: #6FCB93; --warn: #E3B24C; --risk: #F2867E;
+    --s0: #7CC59A; --s1: #79AEDB; --s2: #A6A2EC; --s3: #6CC6D6; --s4: #C29BDC;
+    --s5: #F09A76; --s6: #EE86AE; --s7: #95CC78; --s8: #E2B45A; --s9: #A9B4C1;
+    --shadow-1: 0 1px 2px rgb(0 0 0 / .4); --shadow-2: 0 8px 28px rgb(0 0 0 / .5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1513; --surface: #161F1C; --sunken: #111917;
+  --fg: #E8EEEC; --fg-2: #C2CCC9; --muted: #93A19C; --line: #26322E; --line-strong: #364540; --control: #6E807A;
+  --brand: #4FB7A1; --brand-fg: #06201A; --brand-soft: #18302A; --focus: #6FD0BA;
+  --c-sesame: #E0A64A; --c-gum: #EE8A5A; --c-baobab: #84C27B; --c-hib: #EE7AA6;
+  --good: #6FCB93; --warn: #E3B24C; --risk: #F2867E;
+  --s0: #7CC59A; --s1: #79AEDB; --s2: #A6A2EC; --s3: #6CC6D6; --s4: #C29BDC;
+  --s5: #F09A76; --s6: #EE86AE; --s7: #95CC78; --s8: #E2B45A; --s9: #A9B4C1;
+  --shadow-1: 0 1px 2px rgb(0 0 0 / .4); --shadow-2: 0 8px 28px rgb(0 0 0 / .5);
+  color-scheme: dark;
+}

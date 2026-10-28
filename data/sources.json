@@ -1,0 +1,147 @@
+{
+ "_note": "Referenced by `src` on items in crops.json, planner.json routes and compare.json. conf: high = official statistics, med = dated market report or company results, low = supplier listing, estimate or undated.",
+ "cbos25": {
+  "label": "Central Bank of Sudan, exports",
+  "date": "2025",
+  "conf": "high",
+  "url": "https://cbos.gov.sd/sites/default/files/Sta_digest_q4_2025.pdf"
+ },
+ "faostat24": {
+  "label": "FAOSTAT",
+  "date": "2024",
+  "conf": "high",
+  "url": "https://www.fao.org/faostat/en/"
+ },
+ "cfsam23": {
+  "label": "FAO CFSAM, Table 12",
+  "date": "2023/24",
+  "conf": "high",
+  "url": "https://openknowledge.fao.org/server/api/core/bitstreams/8e198344-f214-46c5-bf37-26404fccbc9f/content"
+ },
+ "giews26": {
+  "label": "FAO GIEWS Sudan brief",
+  "date": "Sep 2026",
+  "conf": "high",
+  "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SDN"
+ },
+ "wfp26": {
+  "label": "WFP Sudan food prices",
+  "date": "Sep 2026",
+  "conf": "high",
+  "url": "https://data.humdata.org/dataset/wfp-food-prices-for-sudan"
+ },
+ "halwani25": {
+  "label": "Argaam: Halwani Bros 2025 results (28.6% gross margin)",
+  "date": "2025",
+  "conf": "high",
+  "url": "https://www.argaam.com/en/financial-reports/company-report/918/2025/1"
+ },
+ "cmb26": {
+  "label": "CMB News, Indian sesame FOB",
+  "date": "Oct 2026",
+  "conf": "med",
+  "url": "https://commodity-board.com/indian-sesame-hit-by-weather-supply-shock-vs-rising-eur-fob-prices"
+ },
+ "fava26": {
+  "label": "Fava Herb, African sesame prices",
+  "date": "Oct 2026",
+  "conf": "med",
+  "url": "https://favaherb.com/2026/10/05/africa-sesame-from-cheap-supply-to-strategic-feedstock/"
+ },
+ "pax25": {
+  "label": "PAX for Peace, gum arabic report",
+  "date": "Nov 2025",
+  "conf": "med",
+  "url": "https://paxforpeace.nl/wp-content/uploads/sites/2/2025/11/Rapport_Arabische_Gom_uit_Soedan2511.pdf"
+ },
+ "dabanga": {
+  "label": "Dabanga, El Obeid gum market",
+  "date": "2025",
+  "conf": "med",
+  "url": "https://www.dabangasudan.org/en/all-news/article/sudan-war-paralyses-gum-arabic-market-in-el-obeid-as-production-falls-and-exports-stall"
+ },
+ "lubembo26": {
+  "label": "Lubembo African superfoods price index",
+  "date": "May 2026",
+  "conf": "med",
+  "url": "https://www.lubembointel.com/pricingindex-may2026/"
+ },
+ "tridgeTahini": {
+  "label": "Tridge tahini trade samples",
+  "date": "2026",
+  "conf": "low",
+  "url": "https://dir.tridge.com/prices/tahini/JO"
+ },
+ "estimate": {
+  "label": "not yet checked against a source",
+  "date": "",
+  "conf": "low",
+  "url": ""
+ },
+ "calc": {
+  "label": "Calculated from the sources above",
+  "date": "Oct 2026",
+  "conf": "med",
+  "url": ""
+ },
+ "wits23s": {
+  "label": "World Bank WITS, Saudi sesame imports (HS 120740)",
+  "date": "2023",
+  "conf": "high",
+  "url": "https://wits.worldbank.org/trade/comtrade/en/country/SAU/year/2023/tradeflow/Imports/partner/ALL/product/120740"
+ },
+ "wits23g": {
+  "label": "World Bank WITS, Saudi gum arabic imports (HS 130120)",
+  "date": "2023",
+  "conf": "high",
+  "url": "https://wits.worldbank.org/trade/comtrade/en/country/SAU/year/2023/tradeflow/Imports/partner/ALL/product/130120"
+ },
+ "companies": {
+  "label": "Company websites and business directories",
+  "date": "Oct 2026",
+  "conf": "low",
+  "url": ""
+ },
+ "gtaic24": {
+  "label": "GTAIC (UN Comtrade), gum arabic import prices",
+  "date": "2024",
+  "conf": "med",
+  "url": "https://gtaic.ai/market-reports/gum-arabic-trends-top-30-importing-countries-world-in-2026"
+ },
+ "procres26": {
+  "label": "Procurement Resource, hibiscus extract cost report (raw calyx $1,450–1,900/t FOB)",
+  "date": "early 2026",
+  "conf": "med",
+  "url": "https://www.openpr.com/news/4459697/hibiscus-sabdariffa-flower-extract-production-cost-report"
+ },
+ "tridgeHibEx": {
+  "label": "Tridge hibiscus extract trade prices ($30–38/kg)",
+  "date": "Dec 2025",
+  "conf": "low",
+  "url": "https://www.tridge.com/market-overview/hibiscus-extract"
+ },
+ "era": {
+  "label": "Export Ready Africa, hibiscus import guide",
+  "date": "2026",
+  "conf": "low",
+  "url": "https://exportready.africa/commodity-import-guides/importing-hibiscus-flowers-africa-sourcing-grades-eu-compliance/"
+ },
+ "dataintelo25": {
+  "label": "Dataintelo baobab market report (raw fruit $0.40–0.65/kg in African markets)",
+  "date": "2025",
+  "conf": "low",
+  "url": "https://dataintelo.com/report/baobab-market"
+ },
+ "bulkoil25": {
+  "label": "The Bulk Cart: bulk baobab oil prices",
+  "date": "2025",
+  "conf": "low",
+  "url": "https://www.thebulkcart.com/oils/carrier-oils/baobab-oil/"
+ },
+ "tridgeHibMx": {
+  "label": "Tridge: dried hibiscus import prices into Mexico ($1.80–3.47/kg, 2024)",
+  "date": "2024",
+  "conf": "low",
+  "url": "https://dir.tridge.com/prices/dried-hibiscus-flower/MX"
+ }
+}

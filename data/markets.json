@@ -1,0 +1,813 @@
+{
+ "regions": [
+  [
+   "KSA",
+   "Saudi Arabia"
+  ],
+  [
+   "GCC",
+   "Other Gulf countries"
+  ],
+  [
+   "MENA",
+   "Middle East & North Africa"
+  ],
+  [
+   "EU",
+   "Europe & UK"
+  ],
+  [
+   "ASIA",
+   "Asia"
+  ],
+  [
+   "AM",
+   "Americas"
+  ],
+  [
+   "AF",
+   "Africa"
+  ]
+ ],
+ "buyerTypes": {
+  "factory": {
+   "n": "Food factories",
+   "nature": "Large companies that use your product as an ingredient. They buy big volumes on contracts of 3–12 months.",
+   "cares": "Steady quality, food-safety certificates, on-time delivery, price.",
+   "pay": "Usually 30–90 days after delivery."
+  },
+  "bakery": {
+   "n": "Bakeries & bun makers",
+   "nature": "Buy every week in 25 kg bags. Many small buyers plus a few large bun suppliers for fast-food chains.",
+   "cares": "Clean white seed, no stones, reliable supply.",
+   "pay": "Cash or 30 days for small buyers; contracts for big ones."
+  },
+  "retail": {
+   "n": "Supermarkets (own brand)",
+   "nature": "Chains that sell your product under their own name (private label). Few buyers, large orders.",
+   "cares": "Price, packaging, shelf life, steady supply. Charge fees for shelf space and promotions.",
+   "pay": "Often 60–90 days."
+  },
+  "foodservice": {
+   "n": "Restaurants & caterers",
+   "nature": "Restaurant chains, hotels, caterers and airline kitchens. Buy through distributors in buckets and bulk packs.",
+   "cares": "Taste, consistency, easy-to-use packs.",
+   "pay": "Usually 30–60 days via distributors."
+  },
+  "importer": {
+   "n": "Importers & wholesalers",
+   "nature": "Trading companies that buy containers and resell to smaller shops and factories in their country.",
+   "cares": "Price per container, documents, payment terms.",
+   "pay": "Letter of credit or cash against documents."
+  },
+  "processor": {
+   "n": "Ingredient processors",
+   "nature": "Companies that process further and resell to big brands (e.g. gum and sesame processors). Also competitors.",
+   "cares": "Raw-material grade, traceability, volume.",
+   "pay": "Contracts; letter of credit."
+  },
+  "drinks": {
+   "n": "Drink makers & flavour houses",
+   "nature": "Soft-drink bottlers, juice and concentrate makers, and the flavour companies that supply them.",
+   "cares": "Exact technical specification, food-additive approval, Halal/Kosher, audits.",
+   "pay": "Contracts after a long approval (6–18 months)."
+  },
+  "tea": {
+   "n": "Tea & herbal packers",
+   "nature": "Companies that blend and pack herbal teas, often for many brands.",
+   "cares": "Steam-treated product, pesticide limits, cut size, colour.",
+   "pay": "Annual contracts; 30–60 days."
+  },
+  "cosmetic": {
+   "n": "Cosmetics makers",
+   "nature": "Skin- and hair-care brands and their ingredient suppliers. Small volumes, high price per kg.",
+   "cares": "Purity, organic certificate, a good story about origin.",
+   "pay": "30–60 days."
+  },
+  "pharma": {
+   "n": "Medicine & supplement makers",
+   "nature": "Pharmaceutical and vitamin companies that need medicine-grade ingredients.",
+   "cares": "Medicine-factory rules (GMP), batch documents, audits.",
+   "pay": "Contracts after supplier approval."
+  },
+  "health": {
+   "n": "Health-food brands",
+   "nature": "Brands selling 'superfoods', smoothies and natural snacks, mainly in Europe and the US.",
+   "cares": "Organic certificate, Novel Food approval in the EU, lab tests, origin story.",
+   "pay": "30–60 days."
+  },
+  "feed": {
+   "n": "Animal-feed makers & farms",
+   "nature": "Feed mills, dairy and sheep farms. Buy leftovers in bulk by truck.",
+   "cares": "Protein level, aflatoxin, price per tonne.",
+   "pay": "Cash or short terms."
+  },
+  "aid": {
+   "n": "Aid agencies & their suppliers",
+   "nature": "UN agencies and charities buying food for programmes. Tender-based.",
+   "cares": "Lowest price, approved suppliers, long shelf life.",
+   "pay": "Per tender terms."
+  },
+  "industrial": {
+   "n": "Industrial users",
+   "nature": "Makers of glue, ink, printing products and ceramics that use lower-grade gum.",
+   "cares": "Price and basic technical quality.",
+   "pay": "30–60 days."
+  }
+ },
+ "markets": [
+  {
+   "crop": "Sesame",
+   "p": "Hulled sesame",
+   "r": "KSA",
+   "b": "bakery",
+   "form": "25 kg bags",
+   "where": "Riyadh, Jeddah, Dammam",
+   "ex": "Bun suppliers to burger chains, industrial bakeries",
+   "level": 3,
+   "note": "Daily demand; closest market."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Hulled sesame",
+   "r": "KSA",
+   "b": "factory",
+   "form": "25 kg or 1-tonne bags",
+   "where": "Jeddah, Riyadh",
+   "ex": "Halwani Bros, Al-Jameel, snack makers",
+   "level": 3,
+   "note": "Big local users of hulled seed; also competitors in tahini."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Hulled sesame",
+   "r": "GCC",
+   "b": "bakery",
+   "form": "25 kg bags",
+   "where": "UAE, Kuwait, Qatar, Oman, Bahrain",
+   "ex": "Industrial bakeries, bun suppliers",
+   "level": 2,
+   "note": "Trucked in 2–7 days; duty-free if Saudi origin."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Hulled sesame",
+   "r": "MENA",
+   "b": "factory",
+   "form": "25 kg or 1-tonne bags",
+   "where": "Jordan, Lebanon, Egypt, Iraq",
+   "ex": "Tahini and halawa makers",
+   "level": 2,
+   "note": "Large tahini industries; Arab free-trade preferences."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Hulled sesame",
+   "r": "ASIA",
+   "b": "importer",
+   "form": "containers, 25 kg bags",
+   "where": "China, South Korea",
+   "ex": "Food processors and traders",
+   "level": 1,
+   "note": "Price-driven; Chinese customs registration needed."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Hulled sesame (EU quality)",
+   "r": "EU",
+   "b": "factory",
+   "form": "25 kg bags, steam-treated",
+   "where": "Germany, Greece, Netherlands, UK",
+   "ex": "Bakery-ingredient firms, tahini makers",
+   "level": 2,
+   "note": "Pays more but needs BRCGS and strict pesticide limits."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Hulled sesame (EU quality)",
+   "r": "ASIA",
+   "b": "factory",
+   "form": "25 kg bags",
+   "where": "Japan",
+   "ex": "Food processors via trading houses",
+   "level": 2,
+   "note": "High price, very strict testing."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Hulled sesame (EU quality)",
+   "r": "AM",
+   "b": "importer",
+   "form": "25 kg bags",
+   "where": "USA, Canada",
+   "ex": "Ingredient importers, bakery suppliers",
+   "level": 1,
+   "note": "US food-import rules; sesame is a labelled allergen."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Roasted sesame",
+   "r": "KSA",
+   "b": "foodservice",
+   "form": "1–5 kg packs",
+   "where": "Main cities",
+   "ex": "Sushi, salad and snack outlets",
+   "level": 1,
+   "note": "Small but steady."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Roasted sesame",
+   "r": "ASIA",
+   "b": "factory",
+   "form": "25 kg bags",
+   "where": "Japan, South Korea",
+   "ex": "Snack and sauce makers",
+   "level": 2,
+   "note": "Big roasted-sesame users."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Tahini",
+   "r": "KSA",
+   "b": "foodservice",
+   "form": "10–20 kg buckets",
+   "where": "All cities",
+   "ex": "Shawarma, hummus and salad chains",
+   "level": 3,
+   "note": "Very large daily use."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Tahini",
+   "r": "KSA",
+   "b": "retail",
+   "form": "250 g – 1 kg jars",
+   "where": "National",
+   "ex": "Panda, Tamimi, Danube, Lulu",
+   "level": 2,
+   "note": "Own-brand jars; shelf fees apply."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Tahini",
+   "r": "KSA",
+   "b": "factory",
+   "form": "200 kg drums",
+   "where": "Jeddah, Riyadh",
+   "ex": "Hummus, sauce and halawa makers",
+   "level": 2,
+   "note": "Bulk supply."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Tahini",
+   "r": "GCC",
+   "b": "foodservice",
+   "form": "buckets",
+   "where": "UAE, Kuwait, Qatar",
+   "ex": "Restaurant distributors",
+   "level": 2,
+   "note": ""
+  },
+  {
+   "crop": "Sesame",
+   "p": "Tahini",
+   "r": "MENA",
+   "b": "importer",
+   "form": "drums and jars",
+   "where": "Iraq, Yemen, Jordan",
+   "ex": "Food importers",
+   "level": 2,
+   "note": "High tahini consumption."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Tahini",
+   "r": "EU",
+   "b": "factory",
+   "form": "drums, tanks",
+   "where": "Germany, UK, Netherlands",
+   "ex": "Hummus and dip makers",
+   "level": 2,
+   "note": "Fast-growing hummus market."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Tahini",
+   "r": "AM",
+   "b": "factory",
+   "form": "drums",
+   "where": "USA",
+   "ex": "Hummus brands",
+   "level": 1,
+   "note": "Large market but far away."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Halawa",
+   "r": "KSA",
+   "b": "retail",
+   "form": "250 g / 500 g jars",
+   "where": "National",
+   "ex": "Supermarket own brands",
+   "level": 3,
+   "note": "Main entry route; Halwani is the brand leader."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Halawa",
+   "r": "KSA",
+   "b": "factory",
+   "form": "5 kg tubs, blocks",
+   "where": "Main cities",
+   "ex": "Sweet makers, bakeries",
+   "level": 2,
+   "note": "Bulk halawa as an ingredient."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Halawa",
+   "r": "GCC",
+   "b": "retail",
+   "form": "jars",
+   "where": "UAE, Kuwait, Oman",
+   "ex": "Supermarkets",
+   "level": 2,
+   "note": ""
+  },
+  {
+   "crop": "Sesame",
+   "p": "Halawa",
+   "r": "MENA",
+   "b": "importer",
+   "form": "tubs and jars",
+   "where": "Iraq, Yemen, Syria",
+   "ex": "Food importers",
+   "level": 2,
+   "note": "Price-sensitive volume markets."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Halawa",
+   "r": "AF",
+   "b": "aid",
+   "form": "tubs",
+   "where": "East Africa, Sudan, Yemen",
+   "ex": "Aid programmes, importers",
+   "level": 1,
+   "note": "Tender-based; low price."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Sesame oil",
+   "r": "KSA",
+   "b": "retail",
+   "form": "bottles",
+   "where": "National",
+   "ex": "Supermarkets, Asian-food shops",
+   "level": 1,
+   "note": "Small niche."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Sesame oil",
+   "r": "ASIA",
+   "b": "importer",
+   "form": "drums",
+   "where": "South Korea, Japan",
+   "ex": "Oil distributors",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Sesame",
+   "p": "Sesame oil",
+   "r": "EU",
+   "b": "cosmetic",
+   "form": "drums",
+   "where": "France, Germany",
+   "ex": "Cosmetics ingredient firms",
+   "level": 1,
+   "note": "Higher price for cosmetic grade."
+  },
+  {
+   "crop": "Sesame",
+   "p": "Seed cake & skins",
+   "r": "KSA",
+   "b": "feed",
+   "form": "bulk truck",
+   "where": "Al-Kharj, Qassim, Eastern Province",
+   "ex": "Feed mills, dairy and sheep farms",
+   "level": 3,
+   "note": "Saudi Arabia imports a lot of feed."
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Crushed gum",
+   "r": "EU",
+   "b": "processor",
+   "form": "25 kg bags",
+   "where": "France, Germany, Netherlands",
+   "ex": "Nexira, Alland & Robert, FOGA Gum",
+   "level": 3,
+   "note": "World's biggest gum processors; they process further."
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Crushed gum",
+   "r": "ASIA",
+   "b": "processor",
+   "form": "25 kg bags",
+   "where": "India, China",
+   "ex": "Gum processors and traders",
+   "level": 2,
+   "note": ""
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Gum powder",
+   "r": "KSA",
+   "b": "drinks",
+   "form": "25 kg bags",
+   "where": "Jeddah, Riyadh, Dammam",
+   "ex": "Soft-drink bottlers, flavour houses",
+   "level": 3,
+   "note": "No local spray-dried supply today."
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Gum powder",
+   "r": "GCC",
+   "b": "drinks",
+   "form": "25 kg bags",
+   "where": "UAE",
+   "ex": "Bottlers, flavour houses",
+   "level": 2,
+   "note": ""
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Gum powder",
+   "r": "MENA",
+   "b": "factory",
+   "form": "25 kg bags",
+   "where": "Egypt, Turkey",
+   "ex": "Sweet and gum makers",
+   "level": 2,
+   "note": ""
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Gum powder",
+   "r": "EU",
+   "b": "drinks",
+   "form": "25 kg bags",
+   "where": "UK, Ireland, Germany",
+   "ex": "Kerry and other flavour companies",
+   "level": 2,
+   "note": "Long supplier approval."
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Gum powder",
+   "r": "AM",
+   "b": "drinks",
+   "form": "25 kg bags",
+   "where": "USA",
+   "ex": "Ingredion, drink and flavour companies",
+   "level": 2,
+   "note": "Kosher certificate usually required."
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Gum powder",
+   "r": "ASIA",
+   "b": "factory",
+   "form": "25 kg bags",
+   "where": "Japan, China",
+   "ex": "Sweet and food makers",
+   "level": 2,
+   "note": ""
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Fast-dissolving granules",
+   "r": "GCC",
+   "b": "drinks",
+   "form": "25 kg bags",
+   "where": "KSA, UAE",
+   "ex": "Concentrate and powder-drink makers",
+   "level": 2,
+   "note": "Premium for fast dissolving."
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Fibre & medicine grade",
+   "r": "EU",
+   "b": "pharma",
+   "form": "bags, drums",
+   "where": "France, Germany, Switzerland",
+   "ex": "Medicine and supplement makers",
+   "level": 2,
+   "note": "Needs GMP."
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Fibre & medicine grade",
+   "r": "ASIA",
+   "b": "pharma",
+   "form": "bags, drums",
+   "where": "India, Japan",
+   "ex": "Medicine makers",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Fibre & medicine grade",
+   "r": "AM",
+   "b": "health",
+   "form": "bags",
+   "where": "USA",
+   "ex": "Fibre and gut-health brands",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Industrial grade",
+   "r": "ASIA",
+   "b": "industrial",
+   "form": "bags",
+   "where": "India, China",
+   "ex": "Ink, glue and printing firms",
+   "level": 1,
+   "note": "Low price; uses leftovers."
+  },
+  {
+   "crop": "Gum Arabic",
+   "p": "Industrial grade",
+   "r": "MENA",
+   "b": "industrial",
+   "form": "bags",
+   "where": "Egypt, Turkey",
+   "ex": "Glue and textile firms",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Baobab",
+   "p": "Baobab powder",
+   "r": "EU",
+   "b": "health",
+   "form": "20–25 kg bags",
+   "where": "UK, Germany, Netherlands, France",
+   "ex": "Superfood and smoothie brands",
+   "level": 3,
+   "note": "Main market; Novel Food approved since 2008."
+  },
+  {
+   "crop": "Baobab",
+   "p": "Baobab powder",
+   "r": "AM",
+   "b": "health",
+   "form": "20–25 kg bags",
+   "where": "USA, Canada",
+   "ex": "Health-food brands",
+   "level": 2,
+   "note": "Allowed as a food ingredient."
+  },
+  {
+   "crop": "Baobab",
+   "p": "Baobab powder",
+   "r": "KSA",
+   "b": "retail",
+   "form": "small packs",
+   "where": "Riyadh, Jeddah",
+   "ex": "Health shops, Sudanese grocery stores",
+   "level": 1,
+   "note": "Small but growing."
+  },
+  {
+   "crop": "Baobab",
+   "p": "Baobab powder",
+   "r": "ASIA",
+   "b": "importer",
+   "form": "bags",
+   "where": "China, Japan",
+   "ex": "Supplement and food importers",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Baobab",
+   "p": "Baobab seed oil",
+   "r": "EU",
+   "b": "cosmetic",
+   "form": "drums, bottles",
+   "where": "France, UK, Germany",
+   "ex": "Natural skin-care brands",
+   "level": 2,
+   "note": "High price per kg, small volume."
+  },
+  {
+   "crop": "Baobab",
+   "p": "Baobab seed oil",
+   "r": "AM",
+   "b": "cosmetic",
+   "form": "drums",
+   "where": "USA",
+   "ex": "Cosmetic ingredient suppliers",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Baobab",
+   "p": "Tabaldi drink",
+   "r": "KSA",
+   "b": "retail",
+   "form": "bottles",
+   "where": "Riyadh, Jeddah",
+   "ex": "Sudanese community shops, supermarkets",
+   "level": 2,
+   "note": "Large Sudanese community; Ramadan peak."
+  },
+  {
+   "crop": "Baobab",
+   "p": "Tabaldi drink",
+   "r": "GCC",
+   "b": "retail",
+   "form": "bottles",
+   "where": "UAE, Qatar",
+   "ex": "Supermarkets, community shops",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Baobab",
+   "p": "Fibre & seed cake",
+   "r": "KSA",
+   "b": "feed",
+   "form": "bulk",
+   "where": "Farming regions",
+   "ex": "Feed mills, livestock farms",
+   "level": 1,
+   "note": "Small volumes."
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Whole flowers",
+   "r": "AM",
+   "b": "importer",
+   "form": "bulk bags",
+   "where": "Mexico",
+   "ex": "Wholesalers for 'agua de Jamaica'",
+   "level": 3,
+   "note": "Imports over 15,000 t a year."
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Whole flowers",
+   "r": "MENA",
+   "b": "importer",
+   "form": "bags",
+   "where": "Egypt",
+   "ex": "Importers and drink makers",
+   "level": 2,
+   "note": "Karkade is a national drink."
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Whole flowers",
+   "r": "KSA",
+   "b": "retail",
+   "form": "small packs",
+   "where": "National",
+   "ex": "Supermarkets, spice and herb shops",
+   "level": 2,
+   "note": "Ramadan demand."
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Tea-bag cut",
+   "r": "EU",
+   "b": "tea",
+   "form": "20–25 kg bags",
+   "where": "Germany, Netherlands, UK",
+   "ex": "Martin Bauer, herbal-tea packers",
+   "level": 3,
+   "note": "Historically took most Sudanese hibiscus."
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Tea-bag cut",
+   "r": "AM",
+   "b": "tea",
+   "form": "20–25 kg bags",
+   "where": "USA",
+   "ex": "Herbal-tea brands",
+   "level": 2,
+   "note": ""
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Tea-bag cut",
+   "r": "GCC",
+   "b": "tea",
+   "form": "bags",
+   "where": "KSA, UAE",
+   "ex": "Rabea, Alokozay and other tea packers",
+   "level": 2,
+   "note": "Local tea packers."
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Syrup (concentrate)",
+   "r": "KSA",
+   "b": "foodservice",
+   "form": "drums, bottles",
+   "where": "National",
+   "ex": "Juice shops, caterers, hotels",
+   "level": 2,
+   "note": "Strong Ramadan peak."
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Syrup (concentrate)",
+   "r": "GCC",
+   "b": "drinks",
+   "form": "drums",
+   "where": "UAE, Kuwait",
+   "ex": "Drink makers",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Extract powder & red colour",
+   "r": "EU",
+   "b": "factory",
+   "form": "bags, drums",
+   "where": "Germany, Denmark, France",
+   "ex": "Natural-colour companies",
+   "level": 2,
+   "note": "Replace artificial red colours."
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Extract powder & red colour",
+   "r": "AM",
+   "b": "pharma",
+   "form": "bags",
+   "where": "USA",
+   "ex": "Supplement makers",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Extract powder & red colour",
+   "r": "ASIA",
+   "b": "factory",
+   "form": "bags",
+   "where": "Japan, Korea",
+   "ex": "Colour and drink-ingredient firms",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Drinks & tea bags",
+   "r": "KSA",
+   "b": "retail",
+   "form": "bottles, boxes",
+   "where": "National",
+   "ex": "Supermarkets",
+   "level": 2,
+   "note": "Sweetened drinks pay extra tax."
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Drinks & tea bags",
+   "r": "GCC",
+   "b": "retail",
+   "form": "bottles, boxes",
+   "where": "UAE, Kuwait, Oman",
+   "ex": "Supermarkets",
+   "level": 1,
+   "note": ""
+  },
+  {
+   "crop": "Hibiscus",
+   "p": "Used flower pulp",
+   "r": "KSA",
+   "b": "feed",
+   "form": "bulk",
+   "where": "Farming regions",
+   "ex": "Compost makers, livestock farms",
+   "level": 1,
+   "note": "Small value; avoids waste costs."
+  }
+ ]
+}

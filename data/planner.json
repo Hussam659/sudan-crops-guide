@@ -1,0 +1,1587 @@
+{
+ "zones": [
+  [
+   "raw",
+   "Raw-material intake",
+   "#EEF4FA",
+   "#2F6690"
+  ],
+  [
+   "prep",
+   "Cleaning & preparation",
+   "#EAF4F0",
+   "#3E7C59"
+  ],
+  [
+   "proc",
+   "Processing",
+   "#FBF0EA",
+   "#C0532B"
+  ],
+  [
+   "clean",
+   "Clean area (after heat treatment)",
+   "#F1EEF8",
+   "#5B57A6"
+  ],
+  [
+   "pack",
+   "Packing",
+   "#F9ECF2",
+   "#B23A6B"
+  ],
+  [
+   "store",
+   "Finished goods & dispatch",
+   "#EEF5E9",
+   "#4C8A2E"
+  ]
+ ],
+ "stations": {
+  "recv": {
+   "n": "Receiving & weighing",
+   "d": "Trucks are weighed and unloaded. Samples go to the lab before the material is accepted.",
+   "a": 60,
+   "kw": 5,
+   "op": 1,
+   "c": 40,
+   "z": "raw"
+  },
+  "rawstore": {
+   "n": "Raw-material store",
+   "d": "Dry, pest-controlled warehouse for bags or big bags. Sized for about 1 month of stock.",
+   "a": 400,
+   "kw": 2,
+   "op": 1,
+   "c": 30,
+   "z": "raw",
+   "store": true
+  },
+  "handsort": {
+   "n": "Sorting tables",
+   "d": "Workers pick out stones, bark, stems and bad pieces by hand.",
+   "a": 40,
+   "kw": 1,
+   "op": 3,
+   "c": 10,
+   "z": "prep"
+  },
+  "precl": {
+   "n": "Pre-cleaner (sieves + air)",
+   "d": "Shaking sieves and an air stream remove dust, straw, leaves and stems.",
+   "a": 15,
+   "kw": 7.5,
+   "op": 0.5,
+   "c": 25,
+   "z": "prep"
+  },
+  "destoner": {
+   "n": "Destoner",
+   "d": "Separates stones that are the same size as the seed, using vibration and air.",
+   "a": 8,
+   "kw": 5,
+   "op": 0,
+   "c": 15,
+   "z": "prep"
+  },
+  "grader": {
+   "n": "Size grader",
+   "d": "Sorts seed by size so the hulling machine works evenly.",
+   "a": 10,
+   "kw": 3,
+   "op": 0,
+   "c": 15,
+   "z": "prep"
+  },
+  "soak": {
+   "n": "Soaking tanks",
+   "d": "Seed is soaked in clean water so the skin loosens.",
+   "a": 25,
+   "kw": 4,
+   "op": 0.5,
+   "c": 30,
+   "z": "proc",
+   "wet": true
+  },
+  "dehull": {
+   "n": "Dehuller (skin remover)",
+   "d": "Gently rubs the wet seed so the skin comes off without breaking the seed.",
+   "a": 15,
+   "kw": 22,
+   "op": 0.5,
+   "c": 90,
+   "z": "proc",
+   "wet": true
+  },
+  "sep": {
+   "n": "Skin separator & washer",
+   "d": "Skins float away in water and are collected; clean seed moves on.",
+   "a": 20,
+   "kw": 7.5,
+   "op": 0.5,
+   "c": 50,
+   "z": "proc",
+   "wet": true
+  },
+  "dryer": {
+   "n": "Dryer",
+   "d": "Warm air dries the product to a safe moisture level (about 4–6% for seed).",
+   "a": 40,
+   "kw": 30,
+   "op": 0.5,
+   "c": 120,
+   "z": "proc",
+   "st": true
+  },
+  "csort": {
+   "n": "Colour sorter",
+   "d": "Cameras spot dark or damaged pieces and air jets blow them out.",
+   "a": 8,
+   "kw": 4,
+   "op": 0.5,
+   "c": 70,
+   "z": "prep"
+  },
+  "steril": {
+   "n": "Steam sterilisation unit",
+   "d": "A short blast of hot steam kills bacteria such as Salmonella without cooking the product.",
+   "a": 30,
+   "kw": 25,
+   "op": 0.5,
+   "c": 300,
+   "z": "clean",
+   "st": true
+  },
+  "cooler": {
+   "n": "Cooler",
+   "d": "Brings the product back to room temperature before packing or grinding.",
+   "a": 15,
+   "kw": 7.5,
+   "op": 0,
+   "c": 30,
+   "z": "clean"
+  },
+  "roaster": {
+   "n": "Roaster",
+   "d": "Roasts the seed for flavour and colour; also dries it further.",
+   "a": 25,
+   "kw": 40,
+   "op": 0.5,
+   "c": 120,
+   "z": "proc"
+  },
+  "mill": {
+   "n": "Tahini mill",
+   "d": "Grinds roasted seed between stones or steel discs into a smooth paste.",
+   "a": 15,
+   "kw": 30,
+   "op": 0.5,
+   "c": 80,
+   "z": "proc"
+  },
+  "tahtank": {
+   "n": "Tahini tanks & heat treatment",
+   "d": "Holds the paste, mixes it evenly and heat-treats it for safety.",
+   "a": 20,
+   "kw": 10,
+   "op": 0.5,
+   "c": 60,
+   "z": "clean",
+   "st": true
+  },
+  "drumfill": {
+   "n": "Drum & tank filling",
+   "d": "Fills bulk drums (about 200 kg) or large tanks for factory customers.",
+   "a": 15,
+   "kw": 3,
+   "op": 1,
+   "c": 25,
+   "z": "pack"
+  },
+  "halcook": {
+   "n": "Sugar syrup cooker",
+   "d": "Cooks sugar and glucose with a natural foaming root extract to make the halawa base.",
+   "a": 20,
+   "kw": 30,
+   "op": 1,
+   "c": 70,
+   "z": "proc",
+   "st": true
+  },
+  "kneader": {
+   "n": "Halawa mixer / kneader",
+   "d": "Folds the hot syrup into tahini until it forms the stringy halawa texture.",
+   "a": 20,
+   "kw": 22,
+   "op": 1,
+   "c": 90,
+   "z": "proc"
+  },
+  "former": {
+   "n": "Moulding & cooling tunnel",
+   "d": "Shapes halawa into blocks or fills tubs, then cools it so it sets.",
+   "a": 40,
+   "kw": 15,
+   "op": 2,
+   "c": 120,
+   "z": "clean"
+  },
+  "press": {
+   "n": "Screw oil press",
+   "d": "Squeezes oil out of seeds with a rotating screw. What remains is seed cake.",
+   "a": 15,
+   "kw": 30,
+   "op": 0.5,
+   "c": 60,
+   "z": "proc"
+  },
+  "filter": {
+   "n": "Oil filter",
+   "d": "Removes fine particles so the oil is clear.",
+   "a": 8,
+   "kw": 4,
+   "op": 0.5,
+   "c": 20,
+   "z": "proc"
+  },
+  "kibbler": {
+   "n": "Crusher (kibbler) & sieve",
+   "d": "Crushes gum lumps into small, even pieces and sieves out the dust.",
+   "a": 15,
+   "kw": 15,
+   "op": 0.5,
+   "c": 40,
+   "z": "prep"
+  },
+  "dissolver": {
+   "n": "Dissolving tanks",
+   "d": "Gum or pulp is mixed with warm water until it fully dissolves.",
+   "a": 40,
+   "kw": 15,
+   "op": 0.5,
+   "c": 120,
+   "z": "proc",
+   "wet": true
+  },
+  "clarif": {
+   "n": "Filter / centrifuge",
+   "d": "Spins or filters the liquid to remove bark, sand and other bits that do not dissolve.",
+   "a": 20,
+   "kw": 15,
+   "op": 0.5,
+   "c": 150,
+   "z": "proc",
+   "wet": true
+  },
+  "past": {
+   "n": "Pasteuriser",
+   "d": "Heats the liquid for a short time to kill bacteria, then cools it.",
+   "a": 15,
+   "kw": 10,
+   "op": 0.5,
+   "c": 80,
+   "z": "clean",
+   "st": true,
+   "wet": true
+  },
+  "evap": {
+   "n": "Evaporator",
+   "d": "Boils off water under vacuum at low temperature to make a thick concentrate.",
+   "a": 40,
+   "kw": 30,
+   "op": 0.5,
+   "c": 350,
+   "z": "clean",
+   "st": true,
+   "wet": true
+  },
+  "spray": {
+   "n": "Spray dryer (tower)",
+   "d": "Sprays the liquid as a fine mist into hot air; the water evaporates and powder falls out. Needs a tall building (about 12–15 m).",
+   "a": 150,
+   "kw": 200,
+   "op": 1,
+   "c": 1500,
+   "z": "clean",
+   "st": true
+  },
+  "agglo": {
+   "n": "Agglomerator (granulator)",
+   "d": "Sticks fine powder into small granules that dissolve faster.",
+   "a": 30,
+   "kw": 40,
+   "op": 0.5,
+   "c": 300,
+   "z": "clean"
+  },
+  "blender": {
+   "n": "Powder blender",
+   "d": "Mixes powders to an exact recipe so every batch is the same.",
+   "a": 15,
+   "kw": 11,
+   "op": 0.5,
+   "c": 40,
+   "z": "clean"
+  },
+  "cracker": {
+   "n": "Pod cracker & seed separator",
+   "d": "Breaks baobab shells and separates pulp from seeds and fibre.",
+   "a": 25,
+   "kw": 11,
+   "op": 1,
+   "c": 50,
+   "z": "prep"
+  },
+  "pulpmill": {
+   "n": "Pulp mill & fine sieve",
+   "d": "Grinds the dry pulp into powder and sieves it to an even fineness.",
+   "a": 20,
+   "kw": 22,
+   "op": 0.5,
+   "c": 70,
+   "z": "proc"
+  },
+  "cutter": {
+   "n": "Cutter & sifter",
+   "d": "Cuts dried flowers into small even pieces that fit into tea bags.",
+   "a": 20,
+   "kw": 15,
+   "op": 0.5,
+   "c": 50,
+   "z": "proc"
+  },
+  "extractor": {
+   "n": "Hot-water extraction tanks",
+   "d": "Soaks the plant in hot water to pull out colour and flavour, like making strong tea.",
+   "a": 40,
+   "kw": 15,
+   "op": 0.5,
+   "c": 150,
+   "z": "proc",
+   "st": true,
+   "wet": true
+  },
+  "metal": {
+   "n": "Metal detector",
+   "d": "Checks every bag or pack for metal pieces and rejects any that fail.",
+   "a": 4,
+   "kw": 1,
+   "op": 0,
+   "c": 15,
+   "z": "pack"
+  },
+  "packbag": {
+   "n": "Bagging (25 kg / big bags)",
+   "d": "Weighs and fills 25 kg bags or 1-tonne big bags, then seals and labels them.",
+   "a": 30,
+   "kw": 5,
+   "op": 2,
+   "c": 60,
+   "z": "pack"
+  },
+  "packretail": {
+   "n": "Retail filling & sealing",
+   "d": "Fills jars, bottles or small packs, seals, labels and boxes them.",
+   "a": 50,
+   "kw": 15,
+   "op": 3,
+   "c": 150,
+   "z": "pack"
+  },
+  "fgstore": {
+   "n": "Finished-goods store & dispatch",
+   "d": "Stores pallets ready for trucks and containers.",
+   "a": 300,
+   "kw": 2,
+   "op": 1,
+   "c": 25,
+   "z": "store",
+   "store": true
+  }
+ },
+ "support": {
+  "lab": {
+   "n": "Quality lab",
+   "d": "Tests incoming material and every finished batch (moisture, bacteria, aflatoxin).",
+   "a": 40,
+   "kw": 5,
+   "op": 1,
+   "c": 50
+  },
+  "boiler": {
+   "n": "Steam boiler",
+   "d": "Makes steam for heating, sterilising and cooking.",
+   "a": 40,
+   "kw": 10,
+   "op": 0.5,
+   "c": 120
+  },
+  "air": {
+   "n": "Air compressor",
+   "d": "Supplies compressed air for sorters, valves and packing machines.",
+   "a": 15,
+   "kw": 22,
+   "op": 0,
+   "c": 20
+  },
+  "water": {
+   "n": "Water treatment",
+   "d": "Cleans incoming water for food use and treats waste water before discharge.",
+   "a": 40,
+   "kw": 10,
+   "op": 0.5,
+   "c": 80
+  },
+  "hyg": {
+   "n": "Changing room & hygiene lock",
+   "d": "Staff wash hands and change clothes before entering the clean area.",
+   "a": 25,
+   "kw": 1,
+   "op": 0,
+   "c": 15
+  }
+ },
+ "raws": [
+  {
+   "id": "ses-nat",
+   "crop": "Sesame",
+   "name": "Natural white sesame seed",
+   "note": "Cleaned seed with skin, as bought in Gedaref or at Port Sudan."
+  },
+  {
+   "id": "ses-hul",
+   "crop": "Sesame",
+   "name": "Hulled sesame seed",
+   "note": "Seed with the skin already removed (from your own hulling line or bought in)."
+  },
+  {
+   "id": "gum-has",
+   "crop": "Gum Arabic",
+   "name": "Gum arabic lumps – Hashab",
+   "note": "Best-quality gum, hand-picked lumps."
+  },
+  {
+   "id": "gum-tal",
+   "crop": "Gum Arabic",
+   "name": "Gum arabic lumps – Talha",
+   "note": "Cheaper gum, lumps or flakes."
+  },
+  {
+   "id": "bao-pulp",
+   "crop": "Baobab",
+   "name": "Baobab pulp with seeds",
+   "note": "Dry fruit pulp pieces, shell already removed in Sudan."
+  },
+  {
+   "id": "bao-seed",
+   "crop": "Baobab",
+   "name": "Baobab seeds",
+   "note": "Seeds left over from making baobab powder."
+  },
+  {
+   "id": "hib-whole",
+   "crop": "Hibiscus",
+   "name": "Dried hibiscus flowers (whole)",
+   "note": "Whole dried calyces from Kordofan or Darfur."
+  },
+  {
+   "id": "hib-fines",
+   "crop": "Hibiscus",
+   "name": "Hibiscus small pieces",
+   "note": "Broken pieces and powder left over from cutting."
+  }
+ ],
+ "routes": [
+  {
+   "raw": "ses-nat",
+   "p": "Cleaned natural sesame (export grade)",
+   "y": 0.97,
+   "m": [
+    30,
+    80
+   ],
+   "price": "About $1,150–1,400 per tonne (Sudan export average and African FOB, 2025–26)",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "destoner",
+    "grader",
+    "csort",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Dust, stones and straw",
+     "pct": 0.03,
+     "use": "Waste (disposal)",
+     "from": "precl"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal"
+   ],
+   "map": "ses-L1",
+   "why": "The simplest line: you only clean and re-pack the seed. Low cost, but the margin is thin because you are mostly trading.",
+   "src": "fava26"
+  },
+  {
+   "raw": "ses-nat",
+   "p": "Hulled sesame (standard)",
+   "y": 0.82,
+   "m": [
+    200,
+    260
+   ],
+   "price": "About €1,500–1,850 per tonne (India FOB benchmark, Oct 2026)",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "destoner",
+    "grader",
+    "soak",
+    "dehull",
+    "sep",
+    "dryer",
+    "csort",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Seed skins",
+     "pct": 0.13,
+     "use": "Animal feed or boiler fuel (~$70/t)",
+     "from": "sep"
+    },
+    {
+     "n": "Broken & dark seeds",
+     "pct": 0.03,
+     "use": "Oil press (sesame oil + seed cake)",
+     "from": "csort"
+    },
+    {
+     "n": "Dust & stones",
+     "pct": 0.02,
+     "use": "Waste",
+     "from": "precl"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "FSSC 22000"
+   ],
+   "map": "ses-L1",
+   "why": "Removes the skin so bakeries and tahini makers can use the seed. Your core line.",
+   "src": "cmb26"
+  },
+  {
+   "raw": "ses-nat",
+   "p": "Hulled sesame – EU quality (steam-treated)",
+   "y": 0.81,
+   "m": [
+    240,
+    320
+   ],
+   "price": "About €1,600–1,850 per tonne (India EU-grade FOB, Oct 2026)",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "destoner",
+    "grader",
+    "soak",
+    "dehull",
+    "sep",
+    "dryer",
+    "csort",
+    "steril",
+    "cooler",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Seed skins",
+     "pct": 0.13,
+     "use": "Animal feed or boiler fuel (~$70/t)",
+     "from": "sep"
+    },
+    {
+     "n": "Broken & dark seeds",
+     "pct": 0.04,
+     "use": "Oil press",
+     "from": "csort"
+    },
+    {
+     "n": "Dust & stones",
+     "pct": 0.02,
+     "use": "Waste",
+     "from": "precl"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "BRCGS",
+    "EU border checks"
+   ],
+   "map": "ses-L1",
+   "why": "Same as standard hulling plus steam sterilisation, so it can be sold to Europe, the UK and Japan.",
+   "src": "cmb26"
+  },
+  {
+   "raw": "ses-nat",
+   "p": "Roasted sesame",
+   "y": 0.78,
+   "m": [
+    300,
+    450
+   ],
+   "price": "About $2,300–2,500 per tonne (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "destoner",
+    "grader",
+    "soak",
+    "dehull",
+    "sep",
+    "dryer",
+    "csort",
+    "roaster",
+    "cooler",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Seed skins",
+     "pct": 0.13,
+     "use": "Animal feed",
+     "from": "sep"
+    },
+    {
+     "n": "Broken & dark seeds",
+     "pct": 0.03,
+     "use": "Oil press",
+     "from": "csort"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "FSSC 22000"
+   ],
+   "map": "ses-L1",
+   "why": "Hulled seed roasted for bakery toppings, snacks and sushi."
+  },
+  {
+   "raw": "ses-nat",
+   "p": "Tahini",
+   "y": 0.77,
+   "m": [
+    600,
+    850
+   ],
+   "price": "About $2,700–3,200 per tonne (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "destoner",
+    "grader",
+    "soak",
+    "dehull",
+    "sep",
+    "dryer",
+    "csort",
+    "roaster",
+    "cooler",
+    "mill",
+    "tahtank",
+    "drumfill",
+    "packretail",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Seed skins",
+     "pct": 0.13,
+     "use": "Animal feed",
+     "from": "sep"
+    },
+    {
+     "n": "Broken & dark seeds",
+     "pct": 0.03,
+     "use": "Oil press",
+     "from": "csort"
+    },
+    {
+     "n": "Roasting dust",
+     "pct": 0.01,
+     "use": "Oil press",
+     "from": "roaster"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "FSSC 22000"
+   ],
+   "map": "ses-L2",
+   "why": "The full chain from seed to paste. Margin per tonne combines hulling and tahini.",
+   "src": "halwani25"
+  },
+  {
+   "raw": "ses-nat",
+   "p": "Halawa",
+   "y": 1.53,
+   "m": [
+    800,
+    1200
+   ],
+   "price": "Bulk $2,800–3,500; supermarket own-brand $3,500–4,500 per tonne",
+   "add": "Plus about 0.48 t sugar/glucose and a little foaming root extract per tonne of halawa",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "destoner",
+    "grader",
+    "soak",
+    "dehull",
+    "sep",
+    "dryer",
+    "csort",
+    "roaster",
+    "cooler",
+    "mill",
+    "tahtank",
+    "halcook",
+    "kneader",
+    "former",
+    "metal",
+    "packretail",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Seed skins",
+     "pct": 0.13,
+     "use": "Animal feed",
+     "from": "sep"
+    },
+    {
+     "n": "Broken & dark seeds",
+     "pct": 0.03,
+     "use": "Oil press",
+     "from": "csort"
+    },
+    {
+     "n": "Trimmings",
+     "pct": 0.02,
+     "use": "Re-melted into next batch",
+     "from": "former"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "FSSC 22000"
+   ],
+   "map": "ses-L3",
+   "why": "The highest-margin sesame product. Output is more than the seed input because sugar is added.",
+   "src": "halwani25"
+  },
+  {
+   "raw": "ses-nat",
+   "p": "Sesame oil (from off-grade seed)",
+   "y": 0.42,
+   "m": [
+    100,
+    300
+   ],
+   "price": "Depends on grade (food or cosmetic)",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "press",
+    "filter",
+    "packretail",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Seed cake",
+     "pct": 0.55,
+     "use": "Animal feed (~$250–350/t)",
+     "from": "press"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal"
+   ],
+   "map": "ses-L4",
+   "why": "Best used for broken and dark seeds from the hulling line, so nothing is wasted."
+  },
+  {
+   "raw": "ses-hul",
+   "p": "Tahini",
+   "y": 0.935,
+   "m": [
+    400,
+    600
+   ],
+   "price": "About $2,700–3,200 per tonne (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "csort",
+    "roaster",
+    "cooler",
+    "mill",
+    "tahtank",
+    "drumfill",
+    "packretail",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Roasting dust & rejects",
+     "pct": 0.02,
+     "use": "Oil press",
+     "from": "roaster"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "FSSC 22000"
+   ],
+   "map": "ses-L2",
+   "why": "Starts from hulled seed, so no hulling machines are needed.",
+   "src": "halwani25"
+  },
+  {
+   "raw": "ses-hul",
+   "p": "Halawa",
+   "y": 1.87,
+   "m": [
+    700,
+    1100
+   ],
+   "price": "Bulk $2,800–3,500; own-brand $3,500–4,500 per tonne",
+   "add": "Plus about 0.48 t sugar/glucose per tonne of halawa",
+   "s": [
+    "recv",
+    "rawstore",
+    "csort",
+    "roaster",
+    "cooler",
+    "mill",
+    "tahtank",
+    "halcook",
+    "kneader",
+    "former",
+    "metal",
+    "packretail",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Roasting rejects",
+     "pct": 0.02,
+     "use": "Oil press",
+     "from": "roaster"
+    },
+    {
+     "n": "Trimmings",
+     "pct": 0.02,
+     "use": "Re-melted",
+     "from": "former"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "FSSC 22000"
+   ],
+   "map": "ses-L3",
+   "why": "Tahini made in-house goes straight into halawa.",
+   "src": "halwani25"
+  },
+  {
+   "raw": "ses-hul",
+   "p": "Roasted sesame",
+   "y": 0.95,
+   "m": [
+    150,
+    250
+   ],
+   "price": "About $2,300–2,500 per tonne (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "roaster",
+    "cooler",
+    "csort",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Burnt or dark seeds",
+     "pct": 0.03,
+     "use": "Oil press",
+     "from": "csort"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal"
+   ],
+   "map": "ses-L1",
+   "why": "A short line for bakery and snack customers."
+  },
+  {
+   "raw": "gum-has",
+   "p": "Crushed gum (kibbled)",
+   "y": 0.95,
+   "m": [
+    150,
+    300
+   ],
+   "price": "Slightly above raw Hashab ($2,500–5,000 per tonne; sources disagree)",
+   "s": [
+    "recv",
+    "rawstore",
+    "handsort",
+    "kibbler",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Fine dust",
+     "pct": 0.05,
+     "use": "Industrial-grade gum (glue, inks)",
+     "from": "kibbler"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal"
+   ],
+   "map": "gum-L1",
+   "why": "Low-cost first step. Sold to processors or fed to a spray dryer later.",
+   "src": "pax25"
+  },
+  {
+   "raw": "gum-has",
+   "p": "Gum arabic powder (E414, spray-dried)",
+   "y": 0.79,
+   "m": [
+    300,
+    1500
+   ],
+   "price": "About $4,500–7,000 per tonne (France sold processed gum to China at about $4,547/t in 2024; small-pack supplier prices are higher)",
+   "s": [
+    "recv",
+    "rawstore",
+    "handsort",
+    "kibbler",
+    "dissolver",
+    "clarif",
+    "past",
+    "spray",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Fine dust",
+     "pct": 0.05,
+     "use": "Industrial-grade gum",
+     "from": "kibbler"
+    },
+    {
+     "n": "Bark & sand sludge",
+     "pct": 0.06,
+     "use": "Compost or landfill",
+     "from": "clarif"
+    },
+    {
+     "n": "Off-spec powder",
+     "pct": 0.02,
+     "use": "Sold cheaper as industrial grade",
+     "from": "spray"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "Kosher",
+    "FSSC 22000",
+    "E414"
+   ],
+   "map": "gum-L2",
+   "why": "The main value-adding line. The spray dryer is the biggest single cost. Margin depends on the raw gum price: from a loss to about $3,300 per tonne. $300–1,500 is a middle case with raw Hashab at $2,500–3,200.",
+   "src": "gtaic24"
+  },
+  {
+   "raw": "gum-has",
+   "p": "Fast-dissolving gum granules",
+   "y": 0.77,
+   "m": [
+    1300,
+    2300
+   ],
+   "price": "Premium over standard powder (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "handsort",
+    "kibbler",
+    "dissolver",
+    "clarif",
+    "past",
+    "spray",
+    "agglo",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Fine dust",
+     "pct": 0.05,
+     "use": "Industrial-grade gum",
+     "from": "kibbler"
+    },
+    {
+     "n": "Bark & sand sludge",
+     "pct": 0.06,
+     "use": "Compost or landfill",
+     "from": "clarif"
+    },
+    {
+     "n": "Fines from granulator",
+     "pct": 0.02,
+     "use": "Returned to dissolving tanks",
+     "from": "agglo"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "Kosher",
+    "FSSC 22000",
+    "E414"
+   ],
+   "map": "gum-L2",
+   "why": "Drink makers pay more for granules that dissolve quickly.",
+   "src": "estimate"
+  },
+  {
+   "raw": "gum-has",
+   "p": "Acacia fibre & medicine-grade gum",
+   "y": 0.75,
+   "m": [
+    2000,
+    3500
+   ],
+   "price": "Highest price per kg (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "handsort",
+    "kibbler",
+    "dissolver",
+    "clarif",
+    "past",
+    "spray",
+    "blender",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Fine dust",
+     "pct": 0.05,
+     "use": "Industrial-grade gum",
+     "from": "kibbler"
+    },
+    {
+     "n": "Bark & sand sludge",
+     "pct": 0.06,
+     "use": "Compost or landfill",
+     "from": "clarif"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "Kosher",
+    "GMP",
+    "Pharma grade"
+   ],
+   "map": "gum-L3",
+   "why": "Needs medicine-factory rules (GMP). Small volumes, highest margin.",
+   "src": "estimate"
+  },
+  {
+   "raw": "gum-tal",
+   "p": "Crushed gum (kibbled)",
+   "y": 0.95,
+   "m": [
+    100,
+    200
+   ],
+   "price": "Below Hashab prices",
+   "s": [
+    "recv",
+    "rawstore",
+    "handsort",
+    "kibbler",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Fine dust",
+     "pct": 0.05,
+     "use": "Industrial-grade gum",
+     "from": "kibbler"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal"
+   ],
+   "map": "gum-L1",
+   "why": "Cheaper gum, mainly for fibre and sweets.",
+   "src": "estimate"
+  },
+  {
+   "raw": "gum-tal",
+   "p": "Talha powder (fibre grade)",
+   "y": 0.8,
+   "m": [
+    800,
+    1500
+   ],
+   "price": "Below Hashab powder (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "handsort",
+    "kibbler",
+    "dissolver",
+    "clarif",
+    "past",
+    "spray",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Fine dust",
+     "pct": 0.05,
+     "use": "Industrial-grade gum",
+     "from": "kibbler"
+    },
+    {
+     "n": "Bark & sand sludge",
+     "pct": 0.05,
+     "use": "Compost or landfill",
+     "from": "clarif"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "FSSC 22000"
+   ],
+   "map": "gum-L2",
+   "why": "Used as a dietary fibre and in sweets.",
+   "src": "estimate"
+  },
+  {
+   "raw": "bao-pulp",
+   "p": "Baobab fruit powder",
+   "y": 0.5,
+   "m": [
+    800,
+    1500
+   ],
+   "price": "About $3–9/kg; organic higher (May 2026 index)",
+   "s": [
+    "recv",
+    "rawstore",
+    "cracker",
+    "pulpmill",
+    "steril",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Baobab seeds",
+     "pct": 0.4,
+     "use": "Seed oil press",
+     "from": "cracker"
+    },
+    {
+     "n": "Red fibre",
+     "pct": 0.1,
+     "use": "Animal feed or compost",
+     "from": "cracker"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "Novel Food",
+    "Organic"
+   ],
+   "map": "bao-L1",
+   "why": "Turns wild fruit into a 'superfood' powder for health-food brands. The margin shown is cautious: at the index price of $5–9/kg it could be $2,000–7,000 per tonne.",
+   "src": "lubembo26"
+  },
+  {
+   "raw": "bao-pulp",
+   "p": "Tabaldi drink concentrate",
+   "y": 2.5,
+   "m": [
+    300,
+    700
+   ],
+   "price": "Depends on the brand (estimate)",
+   "add": "Plus sugar and water: about 0.2 t of pulp per tonne of concentrate",
+   "s": [
+    "recv",
+    "rawstore",
+    "cracker",
+    "pulpmill",
+    "dissolver",
+    "clarif",
+    "past",
+    "packretail",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Baobab seeds",
+     "pct": 0.4,
+     "use": "Seed oil press",
+     "from": "cracker"
+    },
+    {
+     "n": "Fibre & sediment",
+     "pct": 0.12,
+     "use": "Animal feed",
+     "from": "clarif"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal"
+   ],
+   "map": "bao-L3",
+   "why": "A traditional Sudanese drink, sold to Sudanese communities in the Gulf.",
+   "src": "estimate"
+  },
+  {
+   "raw": "bao-seed",
+   "p": "Baobab seed oil (cold-pressed)",
+   "y": 0.1,
+   "m": [
+    4000,
+    9000
+   ],
+   "price": "About $17–32 per kg in bulk listings (cosmetics grade)",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "press",
+    "filter",
+    "packretail",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Seed cake",
+     "pct": 0.88,
+     "use": "Animal feed",
+     "from": "press"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Organic"
+   ],
+   "map": "bao-L2",
+   "why": "High price per kg but small volumes. Uses the seeds left from powder making. The margin shown is cautious: at $17–32/kg and seeds at $200–500 per tonne, the margin could be $11,000–29,000 per tonne of oil.",
+   "src": "bulkoil25"
+  },
+  {
+   "raw": "hib-whole",
+   "p": "Whole premium hibiscus",
+   "y": 0.9,
+   "m": [
+    300,
+    600
+   ],
+   "price": "Above the Sudan buying price of about $1,500–2,300 per tonne",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "handsort",
+    "steril",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Seeds & stems",
+     "pct": 0.06,
+     "use": "Animal feed or seed oil",
+     "from": "handsort"
+    },
+    {
+     "n": "Small pieces",
+     "pct": 0.04,
+     "use": "Extraction line",
+     "from": "precl"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "Pesticide limits"
+   ],
+   "map": "hib-L1",
+   "why": "Cleaned and steam-treated whole flowers for drink makers and Mexico.",
+   "src": "estimate"
+  },
+  {
+   "raw": "hib-whole",
+   "p": "Tea-bag cut hibiscus",
+   "y": 0.87,
+   "m": [
+    600,
+    1000
+   ],
+   "price": "About $3,500–5,000 per tonne (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "handsort",
+    "steril",
+    "dryer",
+    "cutter",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Seeds & stems",
+     "pct": 0.05,
+     "use": "Animal feed",
+     "from": "handsort"
+    },
+    {
+     "n": "Small pieces & powder",
+     "pct": 0.08,
+     "use": "Extraction line",
+     "from": "cutter"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "Pesticide limits",
+    "BRCGS"
+   ],
+   "map": "hib-L1",
+   "why": "For tea companies in Germany, the US and the Gulf.",
+   "src": "estimate"
+  },
+  {
+   "raw": "hib-whole",
+   "p": "Karkade syrup (concentrate)",
+   "y": 0.6,
+   "m": [
+    800,
+    1500
+   ],
+   "price": "Depends on the customer (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "extractor",
+    "clarif",
+    "evap",
+    "past",
+    "drumfill",
+    "packretail",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Used flower pulp",
+     "pct": 0.7,
+     "use": "Compost or animal feed",
+     "from": "extractor"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal"
+   ],
+   "map": "hib-L2",
+   "why": "For drink makers, food service and Ramadan drinks.",
+   "src": "estimate"
+  },
+  {
+   "raw": "hib-whole",
+   "p": "Hibiscus extract powder / natural red colour",
+   "y": 0.25,
+   "m": [
+    4000,
+    10000
+   ],
+   "price": "About $30–38 per kg in trade data; priced by red-colour content (anthocyanin)",
+   "add": "Uses gum arabic powder as a carrier for spray-drying",
+   "s": [
+    "recv",
+    "rawstore",
+    "precl",
+    "extractor",
+    "clarif",
+    "evap",
+    "blender",
+    "spray",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Used flower pulp",
+     "pct": 0.7,
+     "use": "Compost or animal feed",
+     "from": "extractor"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "FSSC 22000"
+   ],
+   "map": "hib-L2",
+   "why": "Highest value per kg. Needs the same spray dryer as gum arabic, so the two can share equipment.",
+   "src": "estimate"
+  },
+  {
+   "raw": "hib-fines",
+   "p": "Karkade syrup (concentrate)",
+   "y": 0.6,
+   "m": [
+    1000,
+    1700
+   ],
+   "price": "Depends on the customer (estimate)",
+   "s": [
+    "recv",
+    "rawstore",
+    "extractor",
+    "clarif",
+    "evap",
+    "past",
+    "drumfill",
+    "packretail",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Used flower pulp",
+     "pct": 0.7,
+     "use": "Compost or animal feed",
+     "from": "extractor"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal"
+   ],
+   "map": "hib-L2",
+   "why": "Turns cutting leftovers into a sellable product.",
+   "src": "estimate"
+  },
+  {
+   "raw": "hib-fines",
+   "p": "Hibiscus extract powder / natural red colour",
+   "y": 0.25,
+   "m": [
+    4000,
+    10000
+   ],
+   "price": "About $30–38 per kg in trade data; priced by red-colour content (anthocyanin)",
+   "add": "Uses gum arabic powder as a carrier",
+   "s": [
+    "recv",
+    "rawstore",
+    "extractor",
+    "clarif",
+    "evap",
+    "blender",
+    "spray",
+    "metal",
+    "packbag",
+    "fgstore"
+   ],
+   "bp": [
+    {
+     "n": "Used flower pulp",
+     "pct": 0.7,
+     "use": "Compost or animal feed",
+     "from": "extractor"
+    }
+   ],
+   "cert": [
+    "SFDA",
+    "Halal",
+    "FSSC 22000"
+   ],
+   "map": "hib-L2",
+   "why": "Makes the most value from leftover pieces.",
+   "src": "estimate"
+  }
+ ]
+}

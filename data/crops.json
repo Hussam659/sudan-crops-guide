@@ -1,0 +1,2541 @@
+[
+ {
+  "id": "sesame",
+  "name": "Sesame",
+  "ar": "سمسم",
+  "accent": "--c-sesame",
+  "summary": "We buy sesame seed in Sudan, ship it to Saudi Arabia, remove the skin (hulling), and turn part of it into tahini and halawa. Leftovers become sesame oil and animal feed.",
+  "tree": {
+   "name": "Sesame: from Sudan to buyers",
+   "children": [
+    {
+     "name": "1 · Growing & harvest (Sudan)",
+     "children": [
+      {
+       "name": "The farming year",
+       "children": [
+        {
+         "name": "Planting with the first rains",
+         "k": "step",
+         "w": "Jun – Jul",
+         "r": "Sudan",
+         "t": "Large mechanised farms in Gedaref and small family farms elsewhere."
+        },
+        {
+         "name": "Plants grow and fill their pods",
+         "k": "step",
+         "w": "Aug – Sep",
+         "r": "Sudan",
+         "t": "If the rain stops in these months, the harvest is much smaller."
+        },
+        {
+         "name": "Cutting, drying and threshing",
+         "k": "step",
+         "w": "Oct – Dec",
+         "r": "Sudan",
+         "f": "loose seed in sacks",
+         "t": "Plants are cut by hand, stacked to dry, then shaken to release the seed. Late harvesting loses seed on the ground."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Types of sesame",
+       "children": [
+        {
+         "name": "White sesame",
+         "k": "product",
+         "r": "Sudan",
+         "f": "natural seed",
+         "t": "The type we want. Best for hulling, tahini and bread toppings."
+        },
+        {
+         "name": "Red / brown sesame",
+         "k": "product",
+         "r": "Sudan",
+         "f": "natural seed",
+         "t": "Mostly pressed for oil. Not suitable for hulling."
+        },
+        {
+         "name": "Mixed sesame",
+         "k": "product",
+         "r": "Sudan",
+         "f": "natural seed",
+         "t": "Cheaper. Used for oil and lower-quality products."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Where it grows",
+       "children": [
+        {
+         "name": "Gedaref",
+         "k": "place",
+         "r": "Sudan",
+         "t": "The main sesame market, where prices are set. In 2023/24 Gedaref and Sennar each grew about a quarter of Sudan's sesame.",
+         "src": "cfsam23"
+        },
+        {
+         "name": "Blue Nile & Sennar",
+         "k": "place",
+         "r": "Sudan",
+         "t": "Large rain-fed farms."
+        },
+        {
+         "name": "Kordofan",
+         "k": "place",
+         "r": "Sudan",
+         "t": "Small farms. Hard to reach because of the war."
+        },
+        {
+         "name": "White Nile",
+         "k": "place",
+         "r": "Sudan",
+         "t": "Smaller growing area."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "How much Sudan produces",
+       "children": [
+        {
+         "name": "About 626,000 tonnes in 2024",
+         "k": "price",
+         "r": "Sudan",
+         "t": "Official FAO figure. Down from a peak of 1.5 million tonnes in 2020. An industry estimate for 2025 is about 485,000 tonnes.",
+         "src": "faostat24"
+        },
+        {
+         "name": "320,000–390,000 tonnes expected in 2026",
+         "k": "price",
+         "r": "Sudan",
+         "t": "Rainfall in 2026 was 30% below average in Gedaref and 20% below in Sennar, the two main sesame states, so the harvest will be smaller.",
+         "src": "giews26"
+        },
+        {
+         "name": "About a quarter of world exports",
+         "k": "price",
+         "r": "Global",
+         "t": "Sudan is one of the world's top sesame exporters. China has historically bought about half."
+        },
+        {
+         "name": "About 289,000 tonnes exported in 2025",
+         "k": "step",
+         "t": "Worth $334 million, an average of about $1,155 per tonne (customs value, may be understated).",
+         "src": "cbos25"
+        },
+        {
+         "name": "About half of Saudi Arabia's sesame imports",
+         "k": "step",
+         "r": "KSA",
+         "t": "In 2023 Saudi Arabia imported about 48,100 tonnes of sesame worth $116 million. Sudan supplied 48%, ahead of India (20%), Pakistan and Brazil.",
+         "src": "wits23s"
+        }
+       ],
+       "k": "group"
+      }
+     ],
+     "k": "stage",
+     "w": "Jun – Dec",
+     "r": "Sudan",
+     "t": "Sesame grows once a year in the rainy season. Farmers plant in summer and harvest in autumn."
+    },
+    {
+     "name": "2 · Buying in Sudan",
+     "children": [
+      {
+       "name": "Buying from farmers",
+       "children": [
+        {
+         "name": "Farmers and farm schemes",
+         "k": "place",
+         "r": "Sudan",
+         "f": "loose seed in sacks",
+         "t": "Cheapest way to buy, but needs local agents, cash and careful quality checks."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Crop markets",
+       "children": [
+        {
+         "name": "Gedaref crop market",
+         "k": "place",
+         "r": "Sudan",
+         "f": "sold by auction",
+         "t": "The main market where Sudanese sesame prices are set."
+        },
+        {
+         "name": "Sennar, El Obeid and Kosti",
+         "k": "place",
+         "r": "Sudan",
+         "f": "sold by auction",
+         "t": "Smaller regional markets."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Sudanese export companies",
+       "children": [
+        {
+         "name": "Awad Rabie Ibrahim & Sons",
+         "k": "buyer",
+         "r": "Sudan",
+         "f": "cleaned seed, 50 kg bags",
+         "t": "Based in Sennar. Sells under standard GAFTA contract rules with pre-shipment inspection."
+        },
+        {
+         "name": "Samasim Investment Group",
+         "k": "buyer",
+         "r": "Sudan",
+         "f": "bulk or bags",
+         "t": "Large exporter working between Sudan and the UAE."
+        },
+        {
+         "name": "Abnaa Sayed Elobeid",
+         "k": "buyer",
+         "r": "Sudan",
+         "f": "bags",
+         "t": "One of Sudan's major crop exporters."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Backup origins",
+       "children": [
+        {
+         "name": "Ethiopia (Humera area)",
+         "k": "place",
+         "r": "Alt origin",
+         "f": "natural white seed",
+         "t": "Same type of seed as Gedaref. The closest alternative."
+        },
+        {
+         "name": "Nigeria, Tanzania, Burkina Faso, Chad",
+         "k": "place",
+         "r": "Alt origin",
+         "f": "natural seed",
+         "t": "Keep the factory running if Sudan supply stops."
+        },
+        {
+         "name": "India",
+         "k": "place",
+         "r": "Alt origin",
+         "f": "natural and hulled",
+         "t": "Sets world prices. Also our main competitor for hulled sesame."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Buying price",
+       "children": [
+        {
+         "name": "About $1,150–1,400 per tonne at Port Sudan",
+         "k": "price",
+         "r": "Sudan",
+         "id": "ses-buy",
+         "t": "Central Bank export average was about $1,155 per tonne in 2025; African standard grades were about $1,400 FOB in October 2026. Premium white seed sells higher.",
+         "src": "cbos25"
+        }
+       ],
+       "k": "group"
+      }
+     ],
+     "k": "stage",
+     "w": "Nov – Feb",
+     "r": "Sudan",
+     "t": "Most buying happens just after harvest, when quality is best. This is when the most cash is needed."
+    },
+    {
+     "name": "3 · Cleaning & paperwork (Sudan)",
+     "children": [
+      {
+       "name": "Cleaning and grading",
+       "k": "step",
+       "r": "Sudan",
+       "f": "cleaned seed",
+       "t": "Done in the exporter's warehouse. 2–8% of the weight is lost as dust and stones."
+      },
+      {
+       "name": "Quality and plant-health certificates",
+       "k": "risk",
+       "r": "Sudan",
+       "t": "SSMO quality certificate, phytosanitary certificate, certificate of origin, and pre-shipment inspection."
+      },
+      {
+       "name": "Export registration and payment rules",
+       "k": "risk",
+       "r": "Sudan",
+       "t": "Sudan's central bank sets rules on how export money is returned. These change often, so check every season."
+      }
+     ],
+     "k": "stage",
+     "w": "1–3 weeks",
+     "r": "Sudan",
+     "t": "Before export, the seed is cleaned and the documents are prepared."
+    },
+    {
+     "name": "4 · Shipping to Saudi Arabia",
+     "children": [
+      {
+       "name": "Truck to Port Sudan",
+       "k": "step",
+       "r": "Sudan",
+       "f": "50 kg bags",
+       "t": "800–1,200 km, 3–10 days. Risks: fuel shortages, checkpoints and unofficial road charges."
+      },
+      {
+       "name": "Loading into containers",
+       "k": "step",
+       "r": "Transit",
+       "f": "20-foot container, 18–19 tonnes",
+       "t": "Sometimes fumigated against insects."
+      },
+      {
+       "name": "Ship to Jeddah or Jazan",
+       "k": "step",
+       "r": "Transit",
+       "f": "containers",
+       "t": "Only 1–2 days at sea. About $60 per tonne. This short trip is a big advantage."
+      }
+     ],
+     "k": "stage",
+     "w": "1–3 weeks",
+     "r": "Transit",
+     "t": "The seed travels by truck to Port Sudan, then by ship across the Red Sea."
+    },
+    {
+     "name": "5 · Arriving in Saudi Arabia",
+     "children": [
+      {
+       "name": "Customs clearance (or bonded zone)",
+       "k": "risk",
+       "r": "KSA",
+       "t": "If the factory is in a bonded zone or SEZ, no import duty is paid on seed that is re-exported."
+      },
+      {
+       "name": "SFDA food-safety checks",
+       "k": "risk",
+       "r": "KSA",
+       "t": "Samples are tested for Salmonella, pesticide limits and aflatoxin."
+      },
+      {
+       "name": "Cost at our factory: about $1,400 per tonne",
+       "k": "price",
+       "r": "KSA",
+       "id": "ses-landed",
+       "ln": [
+        "ses-buy"
+       ],
+       "t": "Landed cost: purchase price plus shipping, insurance, port fees and trucking."
+      }
+     ],
+     "k": "stage",
+     "w": "3–10 days",
+     "r": "KSA",
+     "t": "Customs and food-safety checks before the seed reaches our factory."
+    },
+    {
+     "name": "6 · Our factory: production lines",
+     "children": [
+      {
+       "name": "Line 1: Cleaning & hulling",
+       "children": [
+        {
+         "name": "Input: 1.22 tonnes of natural seed per tonne hulled",
+         "k": "step",
+         "f": "natural seed",
+         "t": "Yield is about 82%: some weight is lost as skins and broken seed."
+        },
+        {
+         "name": "Steps: sort → soak → remove skin → dry",
+         "k": "step",
+         "t": "Mechanical method, no chemicals. A colour sorter removes dark seeds."
+        },
+        {
+         "name": "Steam sterilisation",
+         "k": "step",
+         "t": "Kills bacteria. Needed to sell to Europe, Japan and big brands."
+        },
+        {
+         "name": "Main product: hulled sesame",
+         "k": "product",
+         "f": "25 kg bags or 1-tonne bags",
+         "id": "ses-hulled",
+         "t": "Sells for about $2,100 per tonne. Indian EU-quality hulled seed was €1,850–1,890 per tonne FOB on 25 Oct 2026."
+        },
+        {
+         "name": "By-product: seed skins",
+         "k": "byproduct",
+         "f": "loose, bulk",
+         "id": "ses-hulls",
+         "ln": [
+          "ses-feed"
+         ],
+         "m": "about $70/tonne",
+         "t": "About 0.15 tonnes per tonne of hulled seed. Sold to animal-feed makers or burned for fuel."
+        },
+        {
+         "name": "By-product: broken & dark seeds",
+         "k": "byproduct",
+         "f": "loose, bulk",
+         "id": "ses-broken",
+         "ln": [
+          "ses-L4"
+         ],
+         "m": "sent to oil press",
+         "t": "Rejected by the colour sorter. Instead of being thrown away, they go to Line 4 to make oil."
+        },
+        {
+         "name": "Waste: stones and dust",
+         "k": "byproduct",
+         "t": "No value. Small disposal cost."
+        },
+        {
+         "name": "Margin: about $240 per tonne",
+         "k": "price",
+         "id": "ses-m1",
+         "m": "before office & staff costs",
+         "t": "Sell at $2,100 minus seed ($1,707) and processing (~$150)."
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "ses-L1",
+       "ln": [
+        "ses-landed"
+       ],
+       "t": "Capacity 1.5 tonnes per hour, about 5,000 tonnes of hulled seed a year. Machines and setup cost about $1.2–3.5 million (capex)."
+      },
+      {
+       "name": "Line 2: Roasting & tahini",
+       "children": [
+        {
+         "name": "Input: 1.07 tonnes of hulled seed per tonne of tahini",
+         "k": "step",
+         "f": "hulled seed",
+         "t": "Roasting dries the seed, so a little weight is lost."
+        },
+        {
+         "name": "Steps: roast → cool → grind → heat-treat",
+         "k": "step",
+         "t": "Seeds are ground between stones or steel discs into a smooth paste."
+        },
+        {
+         "name": "Main product: tahini",
+         "k": "product",
+         "f": "200 kg drums, large tanks or jars",
+         "id": "ses-tahini",
+         "t": "Bulk tahini sells for roughly $2,700–3,200 per tonne (estimate)."
+        },
+        {
+         "name": "By-product: roasting dust",
+         "k": "byproduct",
+         "id": "ses-fines",
+         "ln": [
+          "ses-L4"
+         ],
+         "m": "sent to oil press",
+         "t": "Small amount; goes to Line 4."
+        },
+        {
+         "name": "Margin: about $400–600 per tonne",
+         "k": "price",
+         "id": "ses-m2",
+         "m": "estimate",
+         "t": "Higher than hulling because the extra processing cost is small."
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "ses-L2",
+       "ln": [
+        "ses-hulled"
+       ],
+       "t": "Takes part of the hulled sesame from Line 1."
+      },
+      {
+       "name": "Line 3: Halawa",
+       "children": [
+        {
+         "name": "Input: half tahini, half sugar",
+         "k": "step",
+         "t": "About 0.50 tonnes of tahini and 0.48 tonnes of sugar syrup per tonne, plus a natural foaming root extract and flavours."
+        },
+        {
+         "name": "Steps: cook syrup → mix → knead → mould → cool",
+         "k": "step"
+        },
+        {
+         "name": "Main product: halawa",
+         "k": "product",
+         "f": "5 kg tubs or 250 g / 500 g jars",
+         "id": "ses-halawa",
+         "t": "Bulk about $2,800–3,500 per tonne; supermarket own-brand about $3,500–4,500 per tonne."
+        },
+        {
+         "name": "By-product: trimmings",
+         "k": "byproduct",
+         "m": "re-used in next batch",
+         "t": "Edges and broken pieces are melted down and reused."
+        },
+        {
+         "name": "Margin: about $1,700 per tonne",
+         "k": "price",
+         "id": "ses-m3",
+         "m": "best margin",
+         "t": "Sales of about $3,500 minus costs of about $1,800, before shelf fees and marketing."
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "ses-L3",
+       "ln": [
+        "ses-tahini"
+       ],
+       "t": "Cooking pots, mixers and moulds."
+      },
+      {
+       "name": "Line 4: Oil press (uses leftovers)",
+       "children": [
+        {
+         "name": "Input: broken seeds and roasting dust",
+         "k": "step"
+        },
+        {
+         "name": "Steps: press → filter",
+         "k": "step",
+         "t": "A screw press squeezes out the oil."
+        },
+        {
+         "name": "Main product: sesame oil",
+         "k": "product",
+         "f": "tins or bottles",
+         "id": "ses-oil",
+         "t": "About 40–45% of the seed weight becomes oil. Used in cooking and cosmetics."
+        },
+        {
+         "name": "By-product: seed cake",
+         "k": "byproduct",
+         "f": "loose, bulk",
+         "id": "ses-cake",
+         "ln": [
+          "ses-feed"
+         ],
+         "m": "about $250–350/tonne",
+         "t": "What is left after pressing (about 55%). Protein-rich animal feed."
+        },
+        {
+         "name": "Margin: small but positive",
+         "k": "price",
+         "id": "ses-m4",
+         "m": "recovers waste value",
+         "t": "Its main job is to turn waste into cash."
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "ses-L4",
+       "ln": [
+        "ses-broken",
+        "ses-fines"
+       ],
+       "t": "Turns leftovers from Lines 1 and 2 into money."
+      }
+     ],
+     "k": "stage",
+     "w": "All year",
+     "r": "KSA",
+     "t": "Each production line takes one input and makes one main product. Leftovers (by-products) are sold or used by another line."
+    },
+    {
+     "name": "7 · What we sell & how it's packed",
+     "children": [
+      {
+       "name": "Hulled sesame (standard)",
+       "k": "product",
+       "f": "25 kg bags",
+       "ln": [
+        "ses-L1"
+       ],
+       "t": "For bakeries and food factories in the Middle East."
+      },
+      {
+       "name": "Hulled sesame (EU quality)",
+       "k": "product",
+       "f": "25 kg bags, steam-treated",
+       "ln": [
+        "ses-L1"
+       ],
+       "t": "Cleaner and tested. For Europe, the UK and Japan."
+      },
+      {
+       "name": "Tahini in bulk",
+       "k": "product",
+       "f": "drums or tanks",
+       "ln": [
+        "ses-L2"
+       ],
+       "t": "For hummus makers, restaurants and halawa makers."
+      },
+      {
+       "name": "Tahini in jars (supermarket brand)",
+       "k": "product",
+       "f": "250 g – 1 kg jars",
+       "ln": [
+        "ses-L2"
+       ],
+       "t": "Private label for supermarkets."
+      },
+      {
+       "name": "Halawa in bulk",
+       "k": "product",
+       "f": "tubs or blocks",
+       "ln": [
+        "ses-L3"
+       ],
+       "t": "For sweet shops, bakeries and export."
+      },
+      {
+       "name": "Halawa in jars (supermarket brand)",
+       "k": "product",
+       "f": "jars or tins",
+       "ln": [
+        "ses-L3"
+       ],
+       "t": "Private label for supermarkets."
+      },
+      {
+       "name": "Sesame oil",
+       "k": "product",
+       "f": "tins or bottles",
+       "ln": [
+        "ses-L4"
+       ]
+      },
+      {
+       "name": "Animal-feed leftovers",
+       "k": "byproduct",
+       "f": "loose, bulk",
+       "ln": [
+        "ses-hulls",
+        "ses-cake"
+       ],
+       "t": "Seed skins and seed cake."
+      }
+     ],
+     "k": "stage",
+     "w": "All year",
+     "r": "KSA",
+     "t": "Finished products ready for customers."
+    },
+    {
+     "name": "8 · Who buys it & where",
+     "children": [
+      {
+       "name": "Saudi Arabia",
+       "children": [
+        {
+         "name": "Bakeries and burger-bun makers",
+         "k": "buyer",
+         "r": "KSA",
+         "f": "hulled seed, 25 kg bags",
+         "ln": [
+          "ses-hulled"
+         ],
+         "t": "Buy every day for sesame-topped bread."
+        },
+        {
+         "name": "Halwani Bros and Al-Jameel",
+         "k": "buyer",
+         "r": "KSA",
+         "f": "hulled seed in bulk",
+         "ln": [
+          "ses-hulled"
+         ],
+         "t": "Large tahini and halawa makers. Possible customers and also competitors."
+        },
+        {
+         "name": "Supermarkets (Panda, Tamimi, Danube, Lulu)",
+         "k": "buyer",
+         "r": "KSA",
+         "f": "halawa and tahini under their own brand",
+         "ln": [
+          "ses-halawa",
+          "ses-tahini"
+         ],
+         "t": "Private label. They usually charge fees for shelf space."
+        },
+        {
+         "name": "Restaurants and caterers",
+         "k": "buyer",
+         "r": "KSA",
+         "f": "tahini in buckets",
+         "ln": [
+          "ses-tahini"
+         ],
+         "t": "Hummus, shawarma and salad sauces."
+        },
+        {
+         "name": "Animal-feed makers and dairy farms",
+         "k": "buyer",
+         "r": "KSA",
+         "f": "seed cake and skins",
+         "id": "ses-feed",
+         "ln": [
+          "ses-hulls",
+          "ses-cake"
+         ],
+         "t": "Saudi Arabia imports a lot of animal feed, so local supply is welcome."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Gulf & Middle East",
+       "children": [
+        {
+         "name": "UAE, Kuwait, Qatar, Oman, Bahrain",
+         "k": "buyer",
+         "r": "GCC",
+         "f": "hulled seed, tahini, halawa",
+         "t": "2–7 days by truck. No import duty if the product counts as Saudi origin."
+        },
+        {
+         "name": "Jordan, Lebanon, Iraq, Yemen",
+         "k": "buyer",
+         "r": "MENA",
+         "f": "tahini and halawa in bulk",
+         "t": "People here eat a lot of tahini and halawa. Arab free-trade rules lower duties."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Further away",
+       "children": [
+        {
+         "name": "Germany, Greece, UK, Netherlands",
+         "k": "buyer",
+         "r": "Europe",
+         "f": "EU-quality hulled seed, tahini",
+         "ln": [
+          "ses-hulled"
+         ],
+         "t": "Pay well but demand BRCGS certification and strict pesticide limits."
+        },
+        {
+         "name": "China",
+         "k": "buyer",
+         "r": "Asia",
+         "f": "natural and hulled seed",
+         "t": "The biggest buyer in the world. Very price-focused. Exporters must register with Chinese customs."
+        },
+        {
+         "name": "Japan and South Korea",
+         "k": "buyer",
+         "r": "Asia",
+         "f": "hulled seed; natural seed for oil",
+         "t": "High prices but very strict testing."
+        },
+        {
+         "name": "USA and Canada",
+         "k": "buyer",
+         "r": "Americas",
+         "f": "hulled seed, tahini",
+         "t": "US food-import rules apply; sesame must be labelled as an allergen."
+        },
+        {
+         "name": "East Africa and aid agencies",
+         "k": "buyer",
+         "r": "Africa",
+         "f": "halawa in bulk",
+         "t": "Price-sensitive buyers."
+        }
+       ],
+       "k": "group"
+      }
+     ],
+     "k": "stage",
+     "w": "All year",
+     "t": "Customers, where they are, and what form they buy."
+    },
+    {
+     "name": "9 · Money: margins & profit",
+     "children": [
+      {
+       "name": "Hulling earns about $240 per tonne",
+       "k": "price",
+       "ln": [
+        "ses-L1",
+        "ses-m1"
+       ]
+      },
+      {
+       "name": "Tahini earns about $400–600 per tonne",
+       "k": "price",
+       "ln": [
+        "ses-L2",
+        "ses-m2"
+       ]
+      },
+      {
+       "name": "Halawa earns about $800–1,200 per tonne",
+       "k": "price",
+       "ln": [
+        "ses-L3",
+        "ses-m3"
+       ],
+       "t": "Lowered in Oct 2026: Halwani Bros, the Saudi market leader, made a 28.6% gross margin in 2025. 28–35% of a $2,800–3,500 selling price is about $800–1,200.",
+       "src": "halwani25"
+      },
+      {
+       "name": "Oil and seed cake earn a little",
+       "k": "price",
+       "ln": [
+        "ses-L4",
+        "ses-m4"
+       ]
+      },
+      {
+       "name": "Break-even: about 3,000 tonnes hulled a year",
+       "k": "price",
+       "t": "Assumes about $600,000 a year of fixed costs (staff, rent, certificates, sales)."
+      },
+      {
+       "name": "Profit from hulling only: about $165,000 a year",
+       "k": "price",
+       "t": "Base case at 5,000 tonnes. In a bad year this becomes a loss."
+      },
+      {
+       "name": "Profit with 1,000 tonnes of halawa: about $0.8–1.2 million a year",
+       "k": "price",
+       "t": "Halawa brings most of the profit.",
+       "src": "calc"
+      }
+     ],
+     "k": "stage",
+     "w": "Per year",
+     "t": "How much each line earns. Click an item to jump to its production line."
+    },
+    {
+     "name": "10 · Rules & risks",
+     "children": [
+      {
+       "name": "Salmonella after hulling",
+       "k": "risk",
+       "r": "Global",
+       "t": "Once the skin is off, seed is easier to contaminate. Test every batch and use steam sterilisation."
+      },
+      {
+       "name": "Farm-chemical residues (Europe)",
+       "k": "risk",
+       "r": "Europe",
+       "t": "In 2020 the EU recalled large amounts of Indian sesame because of a banned chemical (ethylene oxide)."
+      },
+      {
+       "name": "Extra EU border checks",
+       "k": "risk",
+       "r": "Europe",
+       "t": "In 2026 the EU rejected 11 Sudanese sesame shipments because health certificates were missing."
+      },
+      {
+       "name": "Saudi licences and certificates",
+       "k": "risk",
+       "r": "KSA",
+       "t": "SFDA factory licence, Halal, and FSSC 22000 or BRCGS."
+      },
+      {
+       "name": "War in Sudan and sudden rule changes",
+       "k": "risk",
+       "r": "Sudan",
+       "t": "Use backup origins and keep safety stock."
+      },
+      {
+       "name": "Competitor: Halwani Bros (Tadawul 6001)",
+       "k": "buyer",
+       "r": "KSA",
+       "t": "Saudi market leader in halawa. Revenue SAR 904 million in 2025.",
+       "src": "halwani25"
+      },
+      {
+       "name": "Competitor: Haitoglou (Greece)",
+       "k": "buyer",
+       "r": "Europe",
+       "t": "One of the world's largest sesame processors, about 150 tonnes a day."
+      },
+      {
+       "name": "Competitor: Al Jameel International Trading",
+       "k": "risk",
+       "r": "KSA",
+       "t": "One of the largest importers of hulled sesame into Saudi Arabia; supplies bakeries and food factories.",
+       "src": "companies"
+      },
+      {
+       "name": "Competitors: local tahini and halawa factories",
+       "k": "risk",
+       "r": "KSA",
+       "t": "Smaller Saudi makers such as Al Jabal (Dammam, since 1996), Al Muna (Riyadh) and Rahash (wholesale tahini and halawa) compete on price in bulk and food-service packs.",
+       "src": "companies"
+      },
+      {
+       "name": "Imported brands on Saudi shelves",
+       "k": "risk",
+       "r": "KSA",
+       "t": "Al Wadi Al Akhdar (Lebanon), Haitoglou (Greece) and Turkish brands compete in supermarkets.",
+       "src": "companies"
+      }
+     ],
+     "k": "stage",
+     "w": "Throughout",
+     "t": "What can go wrong and which rules must be followed."
+    }
+   ],
+   "k": "stage",
+   "t": "Follow the stages from left to right. They are in time order, from the farm in Sudan to the final buyer."
+  }
+ },
+ {
+  "id": "gum",
+  "name": "Gum Arabic",
+  "ar": "صمغ عربي",
+  "accent": "--c-gum",
+  "summary": "Gum arabic is a natural gum collected from Acacia trees. We would crush it, dissolve it, clean it and dry it into a fine powder that soft-drink, sweet and medicine makers use.",
+  "tree": {
+   "name": "Gum arabic: from Sudan to buyers",
+   "children": [
+    {
+     "name": "1 · Tapping & collecting (Sudan)",
+     "children": [
+      {
+       "name": "The collecting year",
+       "children": [
+        {
+         "name": "Cutting the tree bark",
+         "k": "step",
+         "w": "Oct – Nov",
+         "r": "Sudan",
+         "t": "Done after the rainy season ends."
+        },
+        {
+         "name": "Picking the dried lumps",
+         "k": "step",
+         "w": "Nov – May",
+         "r": "Sudan",
+         "f": "hard lumps",
+         "t": "Picked several times, every 2–3 weeks."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Types of gum",
+       "children": [
+        {
+         "name": "Hashab (best quality)",
+         "k": "product",
+         "r": "Sudan",
+         "f": "hard lumps",
+         "t": "From the Acacia senegal tree. The best emulsifier for soft drinks."
+        },
+        {
+         "name": "Talha (cheaper)",
+         "k": "product",
+         "r": "Sudan",
+         "f": "lumps or flakes",
+         "t": "From the Acacia seyal tree. Used for fibre products and sweets."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Where it grows (the 'gum belt')",
+       "children": [
+        {
+         "name": "North & South Kordofan",
+         "k": "place",
+         "r": "Sudan",
+         "t": "Main Hashab area. Badly affected by the war."
+        },
+        {
+         "name": "Darfur",
+         "k": "place",
+         "r": "Sudan",
+         "t": "Hard to access due to the war."
+        },
+        {
+         "name": "Blue Nile, White Nile, Gedaref, Sennar",
+         "k": "place",
+         "r": "Sudan",
+         "t": "Eastern areas, easier to reach."
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Size of the trade",
+       "children": [
+        {
+         "name": "Sudan: 70–80% of world exports (historically)",
+         "k": "price",
+         "r": "Global"
+        },
+        {
+         "name": "Exports fell about 60% after the war started",
+         "k": "risk",
+         "r": "Sudan",
+         "t": "According to Sudan's Gum Arabic Exporters' Association (2025).",
+         "src": "dabanga"
+        },
+        {
+         "name": "World market: about 120,000 tonnes, $1.1 billion a year",
+         "k": "price",
+         "r": "Global",
+         "t": "Estimate cited by Kerry Group."
+        },
+        {
+         "name": "About 62,500 tonnes exported in 2025",
+         "k": "step",
+         "t": "Up from about 48,000 tonnes in 2023/24, but still below 100,000–150,000 tonnes before the war. Customs value $78 million.",
+         "src": "cbos25"
+        },
+        {
+         "name": "Saudi Arabia buys very little gum arabic",
+         "k": "risk",
+         "r": "KSA",
+         "t": "Only about 343 tonnes ($1.5 million) were imported in 2023, mostly from China and Sudan. A Saudi gum factory must export most of its output to Europe, the US or Asia.",
+         "src": "wits23g"
+        }
+       ],
+       "k": "group"
+      }
+     ],
+     "k": "stage",
+     "w": "Oct – May",
+     "r": "Sudan",
+     "t": "Workers cut the bark of Acacia trees; the gum oozes out and dries into lumps that are picked by hand."
+    },
+    {
+     "name": "2 · Buying in Sudan",
+     "children": [
+      {
+       "name": "Collectors and auctions",
+       "children": [
+        {
+         "name": "Collectors sell to village traders",
+         "k": "place",
+         "r": "Sudan",
+         "f": "hard lumps"
+        },
+        {
+         "name": "Al-Obeid gum auction",
+         "k": "place",
+         "r": "Sudan",
+         "f": "lumps, sold by grade",
+         "t": "Main Hashab market. Hard to reach because of the war."
+        },
+        {
+         "name": "An-Nuhud gum auction",
+         "k": "place",
+         "r": "Sudan",
+         "f": "lumps, sold by grade"
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Sudanese export companies",
+       "children": [
+        {
+         "name": "AGP Innovations",
+         "k": "buyer",
+         "r": "Sudan",
+         "f": "cleaned lumps"
+        },
+        {
+         "name": "Dar Savanna",
+         "k": "buyer",
+         "r": "Sudan",
+         "f": "crushed or powder",
+         "t": "Processor inside Sudan; check whether it is still operating."
+        },
+        {
+         "name": "Arin Alosood and ARS",
+         "k": "buyer",
+         "r": "Sudan",
+         "f": "cleaned lumps, bags"
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Backup origins",
+       "children": [
+        {
+         "name": "Chad",
+         "k": "place",
+         "r": "Alt origin",
+         "f": "Talha and Hashab"
+        },
+        {
+         "name": "Nigeria",
+         "k": "place",
+         "r": "Alt origin",
+         "f": "cleaned, crushed or powder",
+         "t": "Prices FOB Lagos in March 2026: cleaned $2,500–3,200, crushed $2,000–2,800, powder $3,000–4,000 per tonne."
+        },
+        {
+         "name": "Senegal, Ethiopia, Eritrea",
+         "k": "place",
+         "r": "Alt origin"
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Buying price",
+       "children": [
+        {
+         "name": "About $2,500–5,000 per tonne (cleaned Hashab, sources disagree)",
+         "k": "price",
+         "r": "Sudan",
+         "id": "gum-buy",
+         "t": "PAX for Peace reports Hashab rising from $2,200 before the war to $4,000–5,000. Nigerian cleaned gum was $2,500–3,200. The 2025 customs average for all grades was only about $1,250. Get real quotes.",
+         "src": "pax25"
+        }
+       ],
+       "k": "group"
+      }
+     ],
+     "k": "stage",
+     "w": "Dec – Jun",
+     "r": "Sudan"
+    },
+    {
+     "name": "3 · Sorting & paperwork (Sudan)",
+     "children": [
+      {
+       "name": "Hand-sorting into grades",
+       "k": "step",
+       "r": "Sudan",
+       "f": "best lumps, cleaned, small pieces, dust",
+       "t": "The best hand-picked lumps get the highest price."
+      },
+      {
+       "name": "Small pieces and dust",
+       "k": "byproduct",
+       "r": "Sudan",
+       "id": "gum-sift-o",
+       "ln": [
+        "gum-tech"
+       ],
+       "t": "Lower grades sold for industrial uses."
+      },
+      {
+       "name": "Certificates and traceability file",
+       "k": "risk",
+       "r": "Sudan",
+       "t": "Buyers ask for proof the gum does not come from conflict-controlled areas."
+      }
+     ],
+     "k": "stage",
+     "w": "1–4 weeks",
+     "r": "Sudan"
+    },
+    {
+     "name": "4 · Shipping to Saudi Arabia",
+     "children": [
+      {
+       "name": "Truck to Port Sudan",
+       "k": "step",
+       "r": "Sudan",
+       "f": "25–50 kg bags",
+       "t": "Unofficial road charges of over 1 million Sudanese pounds per truck have been reported."
+      },
+      {
+       "name": "Ship to Jeddah",
+       "k": "step",
+       "r": "Transit",
+       "f": "20-foot container",
+       "t": "1–2 days at sea."
+      }
+     ],
+     "k": "stage",
+     "w": "1–3 weeks",
+     "r": "Transit"
+    },
+    {
+     "name": "5 · Arriving in Saudi Arabia",
+     "children": [
+      {
+       "name": "Bonded zone or SEZ",
+       "k": "risk",
+       "r": "KSA",
+       "t": "Avoids import duty on gum that is re-exported."
+      },
+      {
+       "name": "SFDA food-safety tests",
+       "k": "risk",
+       "r": "KSA"
+      },
+      {
+       "name": "Cost at our factory: about $2,900 per tonne",
+       "k": "price",
+       "r": "KSA",
+       "id": "gum-landed",
+       "ln": [
+        "gum-buy"
+       ],
+       "t": "Example landed cost."
+      }
+     ],
+     "k": "stage",
+     "w": "3–10 days",
+     "r": "KSA"
+    },
+    {
+     "name": "6 · Our factory: production lines",
+     "children": [
+      {
+       "name": "Line 1: Sorting & crushing",
+       "children": [
+        {
+         "name": "Input: 1.05 tonnes of lumps per tonne crushed",
+         "k": "step",
+         "f": "cleaned lumps"
+        },
+        {
+         "name": "Steps: sort → crush → sieve",
+         "k": "step",
+         "t": "This crushing is called kibbling."
+        },
+        {
+         "name": "Main product: crushed gum",
+         "k": "product",
+         "f": "25 kg bags",
+         "id": "gum-kib",
+         "t": "Sold as it is, or sent to Line 2."
+        },
+        {
+         "name": "By-product: fine dust",
+         "k": "byproduct",
+         "id": "gum-fines",
+         "ln": [
+          "gum-tech"
+         ],
+         "m": "sold cheaper",
+         "t": "About 5%. Sold as industrial-grade gum."
+        },
+        {
+         "name": "Margin: about $150–300 per tonne",
+         "k": "price",
+         "id": "gum-m1",
+         "m": "estimate"
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "gum-L1",
+       "ln": [
+        "gum-landed"
+       ],
+       "t": "Simple, low-cost first step."
+      },
+      {
+       "name": "Line 2: Dissolving & spray-drying",
+       "children": [
+        {
+         "name": "Input: 1.2 tonnes crushed gum per tonne of powder",
+         "k": "step",
+         "t": "Some weight is lost as bark, sand and water."
+        },
+        {
+         "name": "Steps: dissolve in water → filter → heat-treat",
+         "k": "step"
+        },
+        {
+         "name": "Steps: spray-dry → make granules",
+         "k": "step",
+         "t": "Granules dissolve faster for drink makers."
+        },
+        {
+         "name": "Main product: gum arabic powder (E414)",
+         "k": "product",
+         "f": "25 kg paper bags",
+         "id": "gum-sd",
+         "t": "Drink-grade powder sells for roughly $5,000–7,000 per tonne (estimate). Lower-grade powder from Nigeria is $3,000–4,000."
+        },
+        {
+         "name": "By-product: bark and sand sludge",
+         "k": "byproduct",
+         "id": "gum-insol",
+         "ln": [
+          "gum-waste"
+         ],
+         "m": "disposal cost",
+         "t": "The insolubles filtered out of the gum."
+        },
+        {
+         "name": "By-product: off-spec powder",
+         "k": "byproduct",
+         "id": "gum-offspec",
+         "ln": [
+          "gum-tech"
+         ],
+         "m": "sold cheaper"
+        },
+        {
+         "name": "Margin: about $1,000–2,000 per tonne",
+         "k": "price",
+         "id": "gum-m2",
+         "m": "estimate",
+         "t": "Depends on quality and energy costs."
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "gum-L2",
+       "ln": [
+        "gum-kib"
+       ],
+       "t": "The main value-adding line. Expensive machines and high energy use."
+      },
+      {
+       "name": "Line 3: Blending, fibre & medicine grade",
+       "children": [
+        {
+         "name": "Input: Hashab and Talha powders",
+         "k": "step"
+        },
+        {
+         "name": "Steps: mix to exact recipes; medicine rules (GMP)",
+         "k": "step"
+        },
+        {
+         "name": "Main product: fibre and medicine-grade gum",
+         "k": "product",
+         "f": "bags or drums",
+         "id": "gum-fibre",
+         "t": "Highest price, but needs special certificates."
+        },
+        {
+         "name": "Margin: highest per tonne",
+         "k": "price",
+         "id": "gum-m3",
+         "m": "small volumes"
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "gum-L3",
+       "ln": [
+        "gum-sd"
+       ]
+      }
+     ],
+     "k": "stage",
+     "w": "All year",
+     "r": "KSA"
+    },
+    {
+     "name": "7 · What we sell & how it's packed",
+     "children": [
+      {
+       "name": "Crushed gum",
+       "k": "product",
+       "f": "25 kg bags",
+       "ln": [
+        "gum-L1"
+       ]
+      },
+      {
+       "name": "Gum powder for soft drinks",
+       "k": "product",
+       "f": "25 kg bags",
+       "ln": [
+        "gum-L2"
+       ]
+      },
+      {
+       "name": "Fast-dissolving granules",
+       "k": "product",
+       "f": "25 kg bags",
+       "ln": [
+        "gum-L2"
+       ]
+      },
+      {
+       "name": "Fibre and medicine-grade gum",
+       "k": "product",
+       "f": "bags or drums",
+       "ln": [
+        "gum-L3"
+       ]
+      },
+      {
+       "name": "Industrial grade (dust, off-spec)",
+       "k": "byproduct",
+       "f": "bags",
+       "id": "gum-tech",
+       "ln": [
+        "gum-fines",
+        "gum-offspec",
+        "gum-sift-o"
+       ],
+       "t": "For glues, inks and printing."
+      },
+      {
+       "name": "Bark and sand waste",
+       "k": "byproduct",
+       "f": "sludge",
+       "id": "gum-waste",
+       "ln": [
+        "gum-insol"
+       ],
+       "t": "Composted or sent to landfill."
+      }
+     ],
+     "k": "stage",
+     "r": "KSA"
+    },
+    {
+     "name": "8 · Who buys it & where",
+     "children": [
+      {
+       "name": "Saudi Arabia, Gulf, Middle East",
+       "children": [
+        {
+         "name": "Soft-drink bottlers and flavour companies",
+         "k": "buyer",
+         "r": "GCC",
+         "f": "powder",
+         "ln": [
+          "gum-sd"
+         ],
+         "t": "Nobody makes gum powder in the Gulf today, so local supply is an advantage."
+        },
+        {
+         "name": "Sweet makers (Saudi Arabia, Egypt)",
+         "k": "buyer",
+         "r": "MENA",
+         "f": "powder or crushed"
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Global",
+       "children": [
+        {
+         "name": "Nexira and Alland & Robert (France)",
+         "k": "buyer",
+         "r": "Europe",
+         "f": "lumps or crushed",
+         "ln": [
+          "gum-kib"
+         ],
+         "t": "The world's biggest gum processors. Also competitors."
+        },
+        {
+         "name": "Kerry and FOGA Gum",
+         "k": "buyer",
+         "r": "Europe",
+         "f": "crushed or powder"
+        },
+        {
+         "name": "Ingredion and US drink makers",
+         "k": "buyer",
+         "r": "Americas",
+         "f": "powder; Kosher needed"
+        },
+        {
+         "name": "India, China, Japan",
+         "k": "buyer",
+         "r": "Asia",
+         "f": "powder, medicine grade",
+         "ln": [
+          "gum-fibre"
+         ]
+        },
+        {
+         "name": "Ink, printing and glue makers",
+         "k": "buyer",
+         "r": "Global",
+         "f": "industrial grade",
+         "ln": [
+          "gum-tech"
+         ]
+        }
+       ],
+       "k": "group"
+      }
+     ],
+     "k": "stage"
+    },
+    {
+     "name": "9 · Money: margins & profit",
+     "children": [
+      {
+       "name": "Crushing earns about $150–300 per tonne",
+       "k": "price",
+       "ln": [
+        "gum-L1",
+        "gum-m1"
+       ]
+      },
+      {
+       "name": "Spray-drying earns about $1,000–2,000 per tonne",
+       "k": "price",
+       "ln": [
+        "gum-L2",
+        "gum-m2"
+       ]
+      },
+      {
+       "name": "Fibre and medicine grade earn the most",
+       "k": "price",
+       "ln": [
+        "gum-L3",
+        "gum-m3"
+       ]
+      },
+      {
+       "name": "The spray-dryer is the biggest cost",
+       "k": "price",
+       "t": "Get quotes from machine makers. Energy is a large running cost."
+      }
+     ],
+     "k": "stage"
+    },
+    {
+     "name": "10 · Rules & risks",
+     "children": [
+      {
+       "name": "Proving the gum is not from conflict areas",
+       "k": "risk",
+       "r": "Sudan",
+       "t": "Armed groups have been accused of smuggling gum. Check every supplier and keep traceability records."
+      },
+      {
+       "name": "Food-additive quality standards",
+       "k": "risk",
+       "r": "Global",
+       "t": "Must meet the official E414 rules for food use."
+      },
+      {
+       "name": "Halal and Kosher certificates",
+       "k": "risk",
+       "r": "Global"
+      },
+      {
+       "name": "Most supply is in war zones",
+       "k": "risk",
+       "r": "Sudan",
+       "t": "The biggest risk for this crop."
+      },
+      {
+       "name": "Competitors: Nexira, Alland & Robert, Kerry",
+       "k": "buyer",
+       "r": "Europe"
+      }
+     ],
+     "k": "stage"
+    }
+   ],
+   "k": "stage",
+   "t": "Sudan has supplied 70–80% of the world's gum arabic. Follow the stages left to right."
+  }
+ },
+ {
+  "id": "baobab",
+  "name": "Baobab",
+  "ar": "تبلدي / قنقليز",
+  "accent": "--c-baobab",
+  "summary": "Baobab fruit grows wild in Sudan. We would grind the dry fruit pulp into a powder sold as a healthy food, press the seeds for cosmetic oil, and sell the rest as animal feed.",
+  "tree": {
+   "name": "Baobab: from Sudan to buyers",
+   "children": [
+    {
+     "name": "1 · Wild harvest (Sudan)",
+     "children": [
+      {
+       "name": "Fruit dries on the tree",
+       "k": "step",
+       "r": "Sudan",
+       "w": "Nov – Jan"
+      },
+      {
+       "name": "Collecting the fruit pods",
+       "k": "step",
+       "r": "Sudan",
+       "w": "Dec – Apr",
+       "f": "whole pods"
+      },
+      {
+       "name": "Where it grows",
+       "children": [
+        {
+         "name": "Kordofan",
+         "k": "place",
+         "r": "Sudan"
+        },
+        {
+         "name": "Darfur",
+         "k": "place",
+         "r": "Sudan"
+        },
+        {
+         "name": "Blue Nile and Sennar",
+         "k": "place",
+         "r": "Sudan"
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Amount varies every year",
+       "k": "risk",
+       "r": "Sudan",
+       "t": "Wild trees, no plantations, so supply is hard to predict."
+      }
+     ],
+     "k": "stage",
+     "w": "Dec – Apr",
+     "r": "Sudan",
+     "t": "Collected in the dry season by local people."
+    },
+    {
+     "name": "2 · Buying in Sudan",
+     "children": [
+      {
+       "name": "Rural markets (El Obeid, Nyala, En Nahud)",
+       "k": "place",
+       "r": "Sudan",
+       "f": "pulp pieces with seeds"
+      },
+      {
+       "name": "Omdurman wholesale market",
+       "k": "place",
+       "r": "Sudan",
+       "f": "pulp pieces in bags",
+       "t": "Traditional Tabaldi trade; check if it is operating."
+      },
+      {
+       "name": "Backup origins",
+       "children": [
+        {
+         "name": "Senegal, Mali, Burkina Faso",
+         "k": "place",
+         "r": "Alt origin",
+         "f": "pulp or powder"
+        },
+        {
+         "name": "Malawi, Tanzania, Kenya, Zimbabwe",
+         "k": "place",
+         "r": "Alt origin",
+         "f": "organic powder"
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "About $600–1,200 per tonne",
+       "k": "price",
+       "r": "Sudan",
+       "id": "bao-buy",
+       "t": "For pulp with seeds, shell already removed. Raw baobab fruit sells for about $400–650 per tonne in African markets (2025 market report). No official Sudan price; ask exporters in El Obeid and Omdurman.",
+       "src": "dataintelo25"
+      }
+     ],
+     "k": "stage",
+     "w": "Jan – May",
+     "r": "Sudan"
+    },
+    {
+     "name": "3 · Preparing in Sudan",
+     "children": [
+      {
+       "name": "Cracking the hard shell",
+       "k": "step",
+       "r": "Sudan",
+       "f": "pulp with seeds"
+      },
+      {
+       "name": "Shells",
+       "k": "byproduct",
+       "r": "Sudan",
+       "t": "Used locally as fuel."
+      },
+      {
+       "name": "Drying in the sun and bagging",
+       "k": "step",
+       "r": "Sudan",
+       "f": "25–50 kg bags"
+      }
+     ],
+     "k": "stage",
+     "w": "1–3 weeks",
+     "r": "Sudan"
+    },
+    {
+     "name": "4 · Shipping to Saudi Arabia",
+     "children": [
+      {
+       "name": "Truck to Port Sudan",
+       "k": "step",
+       "r": "Sudan",
+       "f": "bags"
+      },
+      {
+       "name": "Ship to Jeddah",
+       "k": "step",
+       "r": "Transit",
+       "f": "20-foot container"
+      }
+     ],
+     "k": "stage",
+     "w": "1–3 weeks",
+     "r": "Transit"
+    },
+    {
+     "name": "5 · Arriving in Saudi Arabia",
+     "children": [
+      {
+       "name": "SFDA tests for bacteria and moisture",
+       "k": "risk",
+       "r": "KSA"
+      },
+      {
+       "name": "Cost at our factory: about $1,000–1,400 per tonne",
+       "k": "price",
+       "r": "KSA",
+       "id": "bao-landed",
+       "ln": [
+        "bao-buy"
+       ],
+       "t": "Estimate."
+      }
+     ],
+     "k": "stage",
+     "w": "3–10 days",
+     "r": "KSA"
+    },
+    {
+     "name": "6 · Our factory: production lines",
+     "children": [
+      {
+       "name": "Line 1: Separating & grinding",
+       "children": [
+        {
+         "name": "Input: about 2 tonnes of pulp-with-seeds per tonne of powder",
+         "k": "step",
+         "t": "Seeds are about 40% and fibre about 10% of the weight (estimate)."
+        },
+        {
+         "name": "Steps: separate seeds → grind → sieve → heat-treat",
+         "k": "step"
+        },
+        {
+         "name": "Main product: baobab fruit powder",
+         "k": "product",
+         "f": "20–25 kg bags",
+         "id": "bao-powder",
+         "t": "Normal powder about $3–5 per kg; organic in Europe about $6–9 per kg (estimates)."
+        },
+        {
+         "name": "By-product: seeds",
+         "k": "byproduct",
+         "id": "bao-seeds",
+         "ln": [
+          "bao-L2"
+         ],
+         "m": "sent to oil press",
+         "t": "About 0.8 tonnes per tonne of powder."
+        },
+        {
+         "name": "By-product: red fibre",
+         "k": "byproduct",
+         "id": "bao-fibre",
+         "ln": [
+          "bao-feedbuyer"
+         ],
+         "m": "animal feed or compost"
+        },
+        {
+         "name": "Margin: about $800–1,500 per tonne",
+         "k": "price",
+         "id": "bao-m1",
+         "m": "estimate",
+         "t": "Organic certification raises it."
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "bao-L1",
+       "ln": [
+        "bao-landed"
+       ]
+      },
+      {
+       "name": "Line 2: Seed oil press",
+       "children": [
+        {
+         "name": "Input: baobab seeds",
+         "k": "step",
+         "t": "About 10% of the seed weight becomes oil."
+        },
+        {
+         "name": "Steps: clean → cold-press → filter",
+         "k": "step"
+        },
+        {
+         "name": "Main product: baobab seed oil",
+         "k": "product",
+         "f": "drums or bottles",
+         "id": "bao-oil",
+         "t": "Used in skin and hair products. About $10–20 per kg (estimate)."
+        },
+        {
+         "name": "By-product: seed cake",
+         "k": "byproduct",
+         "id": "bao-cake",
+         "ln": [
+          "bao-feedbuyer"
+         ],
+         "m": "animal feed",
+         "t": "About 90% of the seed weight."
+        },
+        {
+         "name": "Margin: small, niche product",
+         "k": "price",
+         "id": "bao-m2"
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "bao-L2",
+       "ln": [
+        "bao-seeds"
+       ]
+      },
+      {
+       "name": "Line 3: Drinks & mixes",
+       "children": [
+        {
+         "name": "Main product: Tabaldi drink concentrate",
+         "k": "product",
+         "f": "bottles",
+         "id": "bao-drink",
+         "t": "Popular with Sudanese living in Saudi Arabia and the Gulf, especially in Ramadan."
+        },
+        {
+         "name": "Main product: smoothie and cereal mixes",
+         "k": "product",
+         "f": "retail packs"
+        },
+        {
+         "name": "Margin: depends on the brand",
+         "k": "price",
+         "id": "bao-m3"
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "bao-L3",
+       "ln": [
+        "bao-powder"
+       ]
+      }
+     ],
+     "k": "stage",
+     "w": "All year",
+     "r": "KSA"
+    },
+    {
+     "name": "7 · What we sell & how it's packed",
+     "children": [
+      {
+       "name": "Baobab powder (normal or organic)",
+       "k": "product",
+       "f": "20–25 kg bags",
+       "ln": [
+        "bao-L1"
+       ]
+      },
+      {
+       "name": "Baobab seed oil",
+       "k": "product",
+       "f": "drums or bottles",
+       "ln": [
+        "bao-L2"
+       ]
+      },
+      {
+       "name": "Tabaldi drink and mixes",
+       "k": "product",
+       "f": "bottles or packs",
+       "ln": [
+        "bao-L3"
+       ]
+      },
+      {
+       "name": "Fibre and seed cake",
+       "k": "byproduct",
+       "f": "loose, bulk",
+       "ln": [
+        "bao-fibre",
+        "bao-cake"
+       ]
+      }
+     ],
+     "k": "stage",
+     "r": "KSA"
+    },
+    {
+     "name": "8 · Who buys it & where",
+     "children": [
+      {
+       "name": "UK and EU health-food brands",
+       "k": "buyer",
+       "r": "Europe",
+       "f": "powder, often organic",
+       "ln": [
+        "bao-powder"
+       ],
+       "t": "Approved as a Novel Food in the EU since 2008."
+      },
+      {
+       "name": "US health-food brands",
+       "k": "buyer",
+       "r": "Americas",
+       "f": "powder",
+       "t": "Approved as a safe food ingredient in the US."
+      },
+      {
+       "name": "Cosmetics makers",
+       "k": "buyer",
+       "r": "Europe",
+       "f": "seed oil",
+       "ln": [
+        "bao-oil"
+       ]
+      },
+      {
+       "name": "Saudi and Gulf shops",
+       "k": "buyer",
+       "r": "GCC",
+       "f": "drinks and powder packs",
+       "ln": [
+        "bao-drink"
+       ]
+      },
+      {
+       "name": "Saudi animal-feed buyers",
+       "k": "buyer",
+       "r": "KSA",
+       "f": "seed cake and fibre",
+       "id": "bao-feedbuyer",
+       "ln": [
+        "bao-cake",
+        "bao-fibre"
+       ]
+      }
+     ],
+     "k": "stage"
+    },
+    {
+     "name": "9 · Money: margins & profit",
+     "children": [
+      {
+       "name": "Powder earns about $800–1,500 per tonne",
+       "k": "price",
+       "ln": [
+        "bao-L1",
+        "bao-m1"
+       ]
+      },
+      {
+       "name": "Seed oil: small niche",
+       "k": "price",
+       "ln": [
+        "bao-L2",
+        "bao-m2"
+       ]
+      },
+      {
+       "name": "Drinks: depends on the brand",
+       "k": "price",
+       "ln": [
+        "bao-L3",
+        "bao-m3"
+       ]
+      },
+      {
+       "name": "Prices change a lot; little public data",
+       "k": "risk",
+       "t": "Get at least 3 buyer quotes before planning."
+      }
+     ],
+     "k": "stage"
+    },
+    {
+     "name": "10 · Rules & risks",
+     "children": [
+      {
+       "name": "EU Novel Food quality rules",
+       "k": "risk",
+       "r": "Europe"
+      },
+      {
+       "name": "Organic certificate for wild-collected fruit",
+       "k": "risk",
+       "r": "Global"
+      },
+      {
+       "name": "Bacteria (heat-treat the powder)",
+       "k": "risk",
+       "r": "Global"
+      },
+      {
+       "name": "Wild supply and war zones",
+       "k": "risk",
+       "r": "Sudan"
+      }
+     ],
+     "k": "stage"
+    }
+   ],
+   "k": "stage",
+   "t": "Baobab trees are wild, not farmed. The fruit dries on the tree."
+  }
+ },
+ {
+  "id": "hibiscus",
+  "name": "Hibiscus",
+  "ar": "كركديه",
+  "accent": "--c-hib",
+  "summary": "Hibiscus (Karkade) is a red flower dried to make a sour red drink. We would clean and cut it for tea companies, make syrups and natural red colouring from the small pieces, and sell drinks in the Gulf.",
+  "tree": {
+   "name": "Hibiscus (Karkade): from Sudan to buyers",
+   "children": [
+    {
+     "name": "1 · Growing & harvest (Sudan)",
+     "children": [
+      {
+       "name": "Planting with the rains",
+       "k": "step",
+       "w": "Jun – Jul",
+       "r": "Sudan"
+      },
+      {
+       "name": "Picking the red flower parts by hand",
+       "k": "step",
+       "w": "Oct – Dec",
+       "r": "Sudan",
+       "f": "fresh calyces"
+      },
+      {
+       "name": "Drying in the sun",
+       "k": "step",
+       "w": "Nov – Jan",
+       "r": "Sudan",
+       "f": "dried whole calyces",
+       "t": "Dust and mould can be a problem."
+      },
+      {
+       "name": "Where it grows",
+       "children": [
+        {
+         "name": "Kordofan (El Obeid, En Nahud)",
+         "k": "place",
+         "r": "Sudan"
+        },
+        {
+         "name": "Darfur (Nyala, El Fasher)",
+         "k": "place",
+         "r": "Sudan"
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Small family farms, often run by women",
+       "k": "place",
+       "r": "Sudan"
+      }
+     ],
+     "k": "stage",
+     "w": "Jun – Dec",
+     "r": "Sudan",
+     "t": "Grown by small farmers in the rainy season."
+    },
+    {
+     "name": "2 · Buying in Sudan",
+     "children": [
+      {
+       "name": "El Obeid, En Nahud and Nyala markets",
+       "k": "place",
+       "r": "Sudan",
+       "f": "dried whole, in bags"
+      },
+      {
+       "name": "Sudanese export companies",
+       "children": [
+        {
+         "name": "Arin Alosood",
+         "k": "buyer",
+         "r": "Sudan",
+         "f": "dried whole"
+        },
+        {
+         "name": "Awad Rabie Ibrahim & Sons",
+         "k": "buyer",
+         "r": "Sudan",
+         "f": "dried whole"
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "Backup origins",
+       "children": [
+        {
+         "name": "Nigeria, Senegal, Mali",
+         "k": "place",
+         "r": "Alt origin"
+        },
+        {
+         "name": "Egypt, China, Thailand",
+         "k": "place",
+         "r": "Alt origin"
+        }
+       ],
+       "k": "group"
+      },
+      {
+       "name": "About $1,500–2,300 per tonne",
+       "k": "price",
+       "r": "Sudan",
+       "id": "hib-buy",
+       "t": "Lowered in Oct 2026. Dried calyces were about $1,450–1,900 per tonne FOB in early 2026; import prices into Mexico were about $1.80–3.47 per kg in 2024. No official Sudan price exists; ask exporters.",
+       "src": "procres26"
+      }
+     ],
+     "k": "stage",
+     "w": "Dec – Mar",
+     "r": "Sudan"
+    },
+    {
+     "name": "3 · Cleaning & paperwork (Sudan)",
+     "children": [
+      {
+       "name": "Remove seeds and stems; sort by colour",
+       "k": "step",
+       "r": "Sudan",
+       "f": "pressed bales or bags"
+      },
+      {
+       "name": "Seeds",
+       "k": "byproduct",
+       "r": "Sudan",
+       "t": "Left in Sudan, or shipped for Line 4."
+      },
+      {
+       "name": "Export certificates",
+       "k": "risk",
+       "r": "Sudan",
+       "t": "Phytosanitary certificate, SSMO, certificate of origin."
+      }
+     ],
+     "k": "stage",
+     "w": "1–3 weeks",
+     "r": "Sudan"
+    },
+    {
+     "name": "4 · Shipping to Saudi Arabia",
+     "children": [
+      {
+       "name": "Truck to Port Sudan",
+       "k": "step",
+       "r": "Sudan",
+       "f": "bales"
+      },
+      {
+       "name": "Ship to Jeddah",
+       "k": "step",
+       "r": "Transit",
+       "f": "20- or 40-foot container",
+       "t": "Hibiscus is light and bulky, so bigger containers help."
+      }
+     ],
+     "k": "stage",
+     "w": "1–3 weeks",
+     "r": "Transit"
+    },
+    {
+     "name": "5 · Arriving in Saudi Arabia",
+     "children": [
+      {
+       "name": "Tests for farm chemicals and bacteria",
+       "k": "risk",
+       "r": "KSA"
+      },
+      {
+       "name": "Cost at our factory: about $2,100–2,900 per tonne",
+       "k": "price",
+       "r": "KSA",
+       "id": "hib-landed",
+       "ln": [
+        "hib-buy"
+       ],
+       "t": "Buying price plus about $600 for transport, port fees and checks (estimate).",
+       "src": "calc"
+      }
+     ],
+     "k": "stage",
+     "w": "3–10 days",
+     "r": "KSA"
+    },
+    {
+     "name": "6 · Our factory: production lines",
+     "children": [
+      {
+       "name": "Line 1: Cleaning, steam treatment & cutting",
+       "children": [
+        {
+         "name": "Input: 1.15 tonnes of whole flowers per tonne of tea-bag cut",
+         "k": "step"
+        },
+        {
+         "name": "Steps: sort → steam-treat → cut → sieve",
+         "k": "step"
+        },
+        {
+         "name": "Main product: tea-bag cut hibiscus",
+         "k": "product",
+         "f": "20–25 kg bags",
+         "id": "hib-tbc",
+         "t": "About $3,500–5,000 per tonne (estimate)."
+        },
+        {
+         "name": "Main product: whole premium flowers",
+         "k": "product",
+         "f": "bags",
+         "id": "hib-whole"
+        },
+        {
+         "name": "By-product: small pieces and powder",
+         "k": "byproduct",
+         "id": "hib-fines",
+         "ln": [
+          "hib-L2"
+         ],
+         "m": "sent to Line 2",
+         "t": "About 10% of the weight."
+        },
+        {
+         "name": "Margin: about $600–1,000 per tonne",
+         "k": "price",
+         "id": "hib-m1",
+         "m": "estimate"
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "hib-L1",
+       "ln": [
+        "hib-landed"
+       ]
+      },
+      {
+       "name": "Line 2: Extract & syrup",
+       "children": [
+        {
+         "name": "Input: small pieces and lower-grade flowers",
+         "k": "step"
+        },
+        {
+         "name": "Steps: soak in hot water → filter → boil down",
+         "k": "step"
+        },
+        {
+         "name": "Main product: Karkade syrup (concentrate)",
+         "k": "product",
+         "f": "drums or bottles",
+         "id": "hib-conc"
+        },
+        {
+         "name": "Spray-dry with gum arabic",
+         "k": "step",
+         "ln": [
+          "gum-sd"
+         ],
+         "t": "Gum arabic helps turn the liquid into powder. This links to the Gum Arabic map."
+        },
+        {
+         "name": "Main product: extract powder and natural red colour",
+         "k": "product",
+         "f": "bags or drums",
+         "id": "hib-extract",
+         "t": "Priced by how much natural red colour (anthocyanin) it contains. Much higher price per kg."
+        },
+        {
+         "name": "By-product: used flower pulp",
+         "k": "byproduct",
+         "id": "hib-marc",
+         "ln": [
+          "hib-feedbuyer"
+         ],
+         "m": "compost or feed"
+        },
+        {
+         "name": "Margin: high per tonne",
+         "k": "price",
+         "id": "hib-m2",
+         "m": "small volumes"
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "hib-L2",
+       "ln": [
+        "hib-fines"
+       ]
+      },
+      {
+       "name": "Line 3: Drinks & tea bags (with a partner factory)",
+       "children": [
+        {
+         "name": "Main product: bottled drinks and Ramadan packs",
+         "k": "product",
+         "f": "bottles",
+         "id": "hib-rtd"
+        },
+        {
+         "name": "Main product: tea bags",
+         "k": "product",
+         "f": "retail boxes"
+        },
+        {
+         "name": "Saudi tax on sweetened drinks",
+         "k": "risk",
+         "r": "KSA",
+         "t": "Sweetened drinks pay excise tax, which raises the shelf price."
+        },
+        {
+         "name": "Margin: depends on the brand",
+         "k": "price",
+         "id": "hib-m3"
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "hib-L3",
+       "ln": [
+        "hib-conc",
+        "hib-tbc"
+       ]
+      },
+      {
+       "name": "Line 4: Seeds (optional)",
+       "children": [
+        {
+         "name": "Seeds pressed for oil",
+         "k": "product",
+         "f": "bulk",
+         "id": "hib-seedoil"
+        },
+        {
+         "name": "By-product: seed cake",
+         "k": "byproduct",
+         "ln": [
+          "hib-feedbuyer"
+         ],
+         "m": "animal feed"
+        }
+       ],
+       "k": "line",
+       "r": "KSA",
+       "id": "hib-L4"
+      }
+     ],
+     "k": "stage",
+     "w": "All year; busiest before Ramadan",
+     "r": "KSA"
+    },
+    {
+     "name": "7 · What we sell & how it's packed",
+     "children": [
+      {
+       "name": "Whole dried flowers",
+       "k": "product",
+       "f": "bags",
+       "ln": [
+        "hib-L1"
+       ]
+      },
+      {
+       "name": "Tea-bag cut, steam-treated",
+       "k": "product",
+       "f": "20–25 kg bags",
+       "ln": [
+        "hib-L1"
+       ]
+      },
+      {
+       "name": "Karkade syrup",
+       "k": "product",
+       "f": "drums",
+       "ln": [
+        "hib-L2"
+       ]
+      },
+      {
+       "name": "Extract powder and red colour",
+       "k": "product",
+       "f": "bags",
+       "ln": [
+        "hib-L2"
+       ]
+      },
+      {
+       "name": "Bottled drinks, Ramadan packs, tea bags",
+       "k": "product",
+       "f": "retail packs",
+       "ln": [
+        "hib-L3"
+       ]
+      }
+     ],
+     "k": "stage",
+     "r": "KSA"
+    },
+    {
+     "name": "8 · Who buys it & where",
+     "children": [
+      {
+       "name": "German tea companies (e.g. Martin Bauer)",
+       "k": "buyer",
+       "r": "Europe",
+       "f": "tea-bag cut, steam-treated",
+       "ln": [
+        "hib-tbc"
+       ],
+       "t": "Historically bought most of Sudan's hibiscus. A trade guide calls Martin Bauer the largest single buyer of Sudanese hibiscus; US buyers often buy it through Germany.",
+       "src": "era"
+      },
+      {
+       "name": "US tea brands",
+       "k": "buyer",
+       "r": "Americas",
+       "f": "tea-bag cut or whole"
+      },
+      {
+       "name": "Mexico (for 'agua de Jamaica' drink)",
+       "k": "buyer",
+       "r": "Americas",
+       "f": "whole flowers in bulk",
+       "ln": [
+        "hib-whole"
+       ],
+       "t": "Imports over 15,000 tonnes a year."
+      },
+      {
+       "name": "Saudi and Gulf (Rabea, Alokozay, supermarkets)",
+       "k": "buyer",
+       "r": "GCC",
+       "f": "drinks, tea bags, syrup",
+       "ln": [
+        "hib-rtd",
+        "hib-conc"
+       ]
+      },
+      {
+       "name": "Food-colour and supplement makers",
+       "k": "buyer",
+       "r": "Global",
+       "f": "extract powder",
+       "ln": [
+        "hib-extract"
+       ]
+      },
+      {
+       "name": "Animal-feed and compost buyers",
+       "k": "buyer",
+       "r": "KSA",
+       "f": "used pulp, seed cake",
+       "id": "hib-feedbuyer"
+      }
+     ],
+     "k": "stage"
+    },
+    {
+     "name": "9 · Money: margins & profit",
+     "children": [
+      {
+       "name": "Tea-bag cut earns about $600–1,000 per tonne",
+       "k": "price",
+       "ln": [
+        "hib-L1",
+        "hib-m1"
+       ]
+      },
+      {
+       "name": "Extract earns a lot per tonne",
+       "k": "price",
+       "ln": [
+        "hib-L2",
+        "hib-m2"
+       ],
+       "t": "Extract powder sells for about $30–38 per kg in trade data and costs about $12.50–18.20 per kg to make, so the margin per tonne is high, but volumes are small. Not yet checked with real quotes.",
+       "src": "tridgeHibEx"
+      },
+      {
+       "name": "Drinks: depends on the brand",
+       "k": "price",
+       "ln": [
+        "hib-L3",
+        "hib-m3"
+       ]
+      },
+      {
+       "name": "Sales peak before Ramadan",
+       "k": "price",
+       "t": "Plan stock and cash for this."
+      }
+     ],
+     "k": "stage"
+    },
+    {
+     "name": "10 · Rules & risks",
+     "children": [
+      {
+       "name": "EU limits on farm chemicals and bacteria",
+       "k": "risk",
+       "r": "Europe"
+      },
+      {
+       "name": "Small volumes; war in Darfur and Kordofan",
+       "k": "risk",
+       "r": "Sudan"
+      },
+      {
+       "name": "Organic option for higher prices",
+       "k": "risk",
+       "r": "Global"
+      }
+     ],
+     "k": "stage"
+    }
+   ],
+   "k": "stage",
+   "t": "Sudan's dark-red hibiscus is known as one of the best in the world."
+  }
+ }
+]

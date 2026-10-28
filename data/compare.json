@@ -1,0 +1,477 @@
+{
+ "_note": "Updated 28 Oct 2026 with Phase 2 sources (see PHASE2-SOURCES.md). Pros/cons still need review.",
+ "crops": {
+  "sesame": {
+   "verdict": {
+    "en": "The safest place to start: the most supply, a big market close by, and you can start small with a cleaning line. Margins are thin until you add tahini and halawa, and the 2026 drought will tighten supply.",
+    "ar": "أكثر بداية أماناً: إمداد كبير وسوق قريب ويمكن البدء بخط تنظيف صغير. الهامش ضعيف حتى تضيف الطحينة والحلاوة، وجفاف 2026 سيقلل المعروض."
+   },
+   "rawPrice": {
+    "en": "≈ $1,150–1,400 / t (Port Sudan)",
+    "ar": "≈ 1,150–1,400$ للطن (بورتسودان)",
+    "src": "cbos25"
+   },
+   "ratings": {
+    "supplyRisk": [
+     2,
+     {
+      "en": "Gedaref and Sennar grow about half the crop and are reachable, but 2026 rainfall there was 20–30% below average.",
+      "ar": "القضارف وسنار تنتجان نحو نصف المحصول ويمكن الوصول إليهما، لكن أمطار 2026 فيهما أقل من المعدل بنسبة 20–30%."
+     }
+    ],
+    "marketSize": [
+     3,
+     {
+      "en": "626,000 t harvested in 2024 and 289,000 t exported in 2025 ($334 million).",
+      "ar": "حُصد 626 ألف طن في 2024 وصُدّر 289 ألف طن في 2025 (334 مليون دولار)."
+     }
+    ],
+    "easeOfStart": [
+     3,
+     {
+      "en": "A cleaning line is the cheapest of all routes and needs no heat treatment.",
+      "ar": "خط التنظيف هو الأرخص بين كل الخطوط ولا يحتاج معالجة حرارية."
+     }
+    ]
+   },
+   "pros": [
+    {
+     "en": [
+      "Plenty of raw material",
+      "About 626,000 t harvested in 2024 and 289,000 t exported in 2025; Ethiopia, Nigeria and Tanzania grow the same seed as backup."
+     ],
+     "ar": [
+      "مادة خام وفيرة",
+      "حُصد نحو 626 ألف طن في 2024 وصُدّر 289 ألف طن في 2025؛ وتزرع إثيوبيا ونيجيريا وتنزانيا نفس البذرة كبديل."
+     ]
+    },
+    {
+     "en": [
+      "Buyers next door",
+      "Sudan already supplies about half of Saudi Arabia's sesame imports (48,100 t in 2023), and the ship from Port Sudan to Jeddah takes only 1–2 days."
+     ],
+     "ar": [
+      "المشترون قريبون",
+      "يوفّر السودان نحو نصف واردات السعودية من السمسم (48,100 طن في 2023)، والشحن من بورتسودان إلى جدة يستغرق يوماً أو يومين فقط."
+     ]
+    },
+    {
+     "en": [
+      "Many products from one seed",
+      "Hulled seed, tahini, halawa and oil; even the skins and broken seeds can be sold as feed or pressed for oil."
+     ],
+     "ar": [
+      "منتجات كثيرة من بذرة واحدة",
+      "سمسم مقشور وطحينة وحلاوة وزيت؛ وحتى القشور والحبوب المكسورة تُباع علفاً أو تُعصر زيتاً."
+     ]
+    },
+    {
+     "en": [
+      "You can grow step by step",
+      "Start by cleaning, add hulling, then tahini; each line feeds the next."
+     ],
+     "ar": [
+      "يمكن التوسع خطوة بخطوة",
+      "ابدأ بالتنظيف ثم التقشير ثم الطحينة؛ كل خط يغذي الخط الذي بعده."
+     ]
+    }
+   ],
+   "cons": [
+    {
+     "en": [
+      "Thin margins on simple lines",
+      "Cleaning earns only about $30–80 per tonne and hulling $200–260, so you need large volumes."
+     ],
+     "ar": [
+      "هامش ضعيف في الخطوط البسيطة",
+      "التنظيف يحقق نحو 30–80$ للطن والتقشير 200–260$، لذلك تحتاج كميات كبيرة."
+     ]
+    },
+    {
+     "en": [
+      "Strong competitors",
+      "India sets world prices for hulled seed; Halwani Bros leads halawa in Saudi Arabia."
+     ],
+     "ar": [
+      "منافسون أقوياء",
+      "الهند تحدد الأسعار العالمية للسمسم المقشور؛ وحلواني إخوان تتصدر سوق الحلاوة في السعودية."
+     ]
+    },
+    {
+     "en": [
+      "Food-safety risk",
+      "Hulled seed is easily contaminated with Salmonella; in 2026 the EU rejected 11 Sudanese shipments for missing certificates."
+     ],
+     "ar": [
+      "مخاطر سلامة الغذاء",
+      "السمسم المقشور يتلوث بالسالمونيلا بسهولة؛ وفي 2026 رفض الاتحاد الأوروبي 11 شحنة سودانية لنقص الشهادات."
+     ]
+    },
+    {
+     "en": [
+      "Drought and cash pressure",
+      "2026 rains were 20–30% below average in the main sesame states, and buying needs cash from November to February."
+     ],
+     "ar": [
+      "الجفاف وضغط السيولة",
+      "أمطار 2026 أقل من المعدل بنسبة 20–30% في ولايات السمسم الرئيسية، والشراء يحتاج سيولة بين نوفمبر وفبراير."
+     ]
+    }
+   ]
+  },
+  "gum": {
+   "verdict": {
+    "en": "The highest value and Sudan's strongest crop worldwide, but the riskiest. Most supply comes from war zones, and powder for drinks needs an expensive spray dryer.",
+    "ar": "أعلى قيمة وأقوى محصول للسودان عالمياً، لكنه الأكثر مخاطرة: معظم الإمداد من مناطق الحرب، ومسحوق المشروبات يحتاج مجفف رذاذ مكلفاً."
+   },
+   "rawPrice": {
+    "en": "≈ $2,500–5,000 / t (Hashab; sources disagree)",
+    "ar": "≈ 2,500–5,000$ للطن (هشاب؛ المصادر متباينة)",
+    "src": "pax25"
+   },
+   "ratings": {
+    "supplyRisk": [
+     3,
+     {
+      "en": "Most Hashab comes from Kordofan and Darfur. Exports recovered to 62,500 t in 2025 but are still about half of pre-war levels.",
+      "ar": "معظم الهشاب من كردفان ودارفور. تعافت الصادرات إلى 62,500 طن في 2025 لكنها ما زالت نحو نصف مستوى ما قبل الحرب."
+     }
+    ],
+    "marketSize": [
+     3,
+     {
+      "en": "World market about 120,000 t and $1.1 billion a year.",
+      "ar": "السوق العالمي نحو 120 ألف طن و1.1 مليار دولار سنوياً."
+     }
+    ],
+    "easeOfStart": [
+     1,
+     {
+      "en": "Drinks-grade powder needs a spray dryer and a building 12–15 m tall.",
+      "ar": "مسحوق المشروبات يحتاج مجفف رذاذ ومبنى بارتفاع 12–15 متراً."
+     }
+    ]
+   },
+   "pros": [
+    {
+     "en": [
+      "Sudan leads the world",
+      "Sudan has supplied 70–80% of world gum arabic exports, and Hashab is the best type for soft drinks."
+     ],
+     "ar": [
+      "السودان يتصدر العالم",
+      "وفّر السودان 70–80% من صادرات الصمغ العربي عالمياً، والهشاب أفضل نوع للمشروبات الغازية."
+     ]
+    },
+    {
+     "en": [
+      "High value per tonne",
+      "Hashab sells for about $2,500–5,000 per tonne depending on the source, and powder sells for more."
+     ],
+     "ar": [
+      "قيمة عالية للطن",
+      "يُباع الهشاب بنحو 2,500–5,000$ للطن حسب المصدر، والمسحوق بسعر أعلى."
+     ]
+    },
+    {
+     "en": [
+      "Big, loyal buyers",
+      "Drink makers and flavour houses buy on yearly contracts once your gum meets their specification."
+     ],
+     "ar": [
+      "مشترون كبار ودائمون",
+      "مصانع المشروبات وشركات النكهات تشتري بعقود سنوية متى طابق الصمغ مواصفاتها."
+     ]
+    },
+    {
+     "en": [
+      "Few real substitutes",
+      "Few other ingredients do the same job in soft drinks, so demand stays steady."
+     ],
+     "ar": [
+      "بدائل قليلة",
+      "مكونات قليلة تؤدي نفس الدور في المشروبات، فيبقى الطلب ثابتاً."
+     ]
+    }
+   ],
+   "cons": [
+    {
+     "en": [
+      "Supply sits in war zones",
+      "Kordofan and Darfur hold most of the trees; the Al-Obeid auction is hard to reach."
+     ],
+     "ar": [
+      "الإمداد في مناطق الحرب",
+      "معظم الأشجار في كردفان ودارفور، ومزاد الأبيض يصعب الوصول إليه."
+     ]
+    },
+    {
+     "en": [
+      "You must prove where it came from",
+      "Armed groups have been accused of smuggling gum, so buyers ask for traceability back to the area."
+     ],
+     "ar": [
+      "يجب إثبات المصدر",
+      "اتُّهمت جماعات مسلحة بتهريب الصمغ، لذلك يطلب المشترون تتبعاً حتى منطقة الإنتاج."
+     ]
+    },
+    {
+     "en": [
+      "Expensive to process",
+      "A spray dryer alone is the biggest single machine cost in the planner."
+     ],
+     "ar": [
+      "تصنيع مكلف",
+      "مجفف الرذاذ وحده أعلى تكلفة لآلة واحدة في المخطِّط."
+     ]
+    },
+    {
+     "en": [
+      "Small home market, global giants",
+      "Saudi Arabia imported only about 343 t in 2023, so you must export; Nexira, Alland & Robert and Kerry already supply the big drink brands."
+     ],
+     "ar": [
+      "سوق محلي صغير ومنافسون عالميون",
+      "استوردت السعودية نحو 343 طناً فقط في 2023، فلا بد من التصدير؛ ونكسيرا وألاند آند روبير وكيري تزوّد كبرى شركات المشروبات بالفعل."
+     ]
+    }
+   ]
+  },
+  "baobab": {
+   "verdict": {
+    "en": "A cheap raw material for a growing health-food market, but supply is wild and hard to predict. It suits a small, organic, export-focused business.",
+    "ar": "مادة خام رخيصة لسوق أغذية صحية متنامٍ، لكن الإمداد بري ويصعب التنبؤ به. يناسب مشروعاً صغيراً عضوياً موجهاً للتصدير."
+   },
+   "rawPrice": {
+    "en": "≈ $600–1,200 / t (pulp with seeds)",
+    "ar": "≈ 600–1,200$ للطن (لب مع البذور)",
+    "src": "dataintelo25"
+   },
+   "ratings": {
+    "supplyRisk": [
+     3,
+     {
+      "en": "Wild trees with no plantations, mostly in Kordofan and Darfur.",
+      "ar": "أشجار برية بلا مزارع، معظمها في كردفان ودارفور."
+     }
+    ],
+    "marketSize": [
+     1,
+     {
+      "en": "A niche 'superfood' market, mainly in Europe and the US.",
+      "ar": "سوق متخصص لـ«الأغذية الخارقة»، أساساً في أوروبا وأمريكا."
+     }
+    ],
+    "easeOfStart": [
+     2,
+     {
+      "en": "Simple dry processing (crack, mill, sieve), but buyers ask for organic and EU Novel Food paperwork.",
+      "ar": "تصنيع جاف بسيط (كسر وطحن ونخل)، لكن المشترين يطلبون شهادة عضوية ومستندات الأغذية الجديدة الأوروبية."
+     }
+    ]
+   },
+   "pros": [
+    {
+     "en": [
+      "Cheap raw material",
+      "Estimated $600–1,200 per tonne, the lowest of the four crops."
+     ],
+     "ar": [
+      "مادة خام رخيصة",
+      "نحو 600–1,200$ للطن تقديرياً، وهو الأرخص بين المحاصيل الأربعة."
+     ]
+    },
+    {
+     "en": [
+      "Health trend works for you",
+      "Baobab powder is sold as a superfood and was approved for the EU in 2008."
+     ],
+     "ar": [
+      "موجة الغذاء الصحي في صالحك",
+      "يُسوَّق مسحوق التبلدي كغذاء خارق ووافق عليه الاتحاد الأوروبي في 2008."
+     ]
+    },
+    {
+     "en": [
+      "Simple dry process",
+      "No water or steam lines needed for basic powder: crack, mill, sieve, pack."
+     ],
+     "ar": [
+      "تصنيع جاف بسيط",
+      "لا يحتاج المسحوق الأساسي خطوط ماء أو بخار: كسر، طحن، نخل، تعبئة."
+     ]
+    },
+    {
+     "en": [
+      "Organic premium",
+      "Wild-collected fruit can be certified organic and sold at a higher price."
+     ],
+     "ar": [
+      "علاوة سعرية للعضوي",
+      "يمكن اعتماد الثمار البرية كمنتج عضوي وبيعها بسعر أعلى."
+     ]
+    }
+   ],
+   "cons": [
+    {
+     "en": [
+      "Supply changes every year",
+      "Only wild trees, no plantations, so volumes are hard to predict."
+     ],
+     "ar": [
+      "الإمداد يتغير كل عام",
+      "أشجار برية فقط بلا مزارع، فيصعب توقع الكميات."
+     ]
+    },
+    {
+     "en": [
+      "Small market",
+      "Buyers are mostly health-food brands in Europe and the US, ordering small volumes."
+     ],
+     "ar": [
+      "سوق صغير",
+      "المشترون غالباً علامات أغذية صحية في أوروبا وأمريكا بكميات صغيرة."
+     ]
+    },
+    {
+     "en": [
+      "Paperwork-heavy buyers",
+      "EU Novel Food rules, organic certificates and lab tests are expected."
+     ],
+     "ar": [
+      "متطلبات مستندية كثيرة",
+      "قواعد الأغذية الجديدة الأوروبية وشهادات عضوية وفحوص مخبرية."
+     ]
+    },
+    {
+     "en": [
+      "No public price",
+      "There is no reliable market price, so every deal must be negotiated."
+     ],
+     "ar": [
+      "لا يوجد سعر معلن",
+      "لا يوجد سعر سوق موثوق، فكل صفقة تحتاج تفاوضاً."
+     ]
+    }
+   ]
+  },
+  "hibiscus": {
+   "verdict": {
+    "en": "Strong demand in Saudi Arabia and the Gulf (karkade drinks, Ramadan) and easy to start with drying and cutting. Volumes are small and quality varies.",
+    "ar": "طلب قوي في السعودية والخليج (مشروب الكركديه ورمضان) وبداية سهلة بالتجفيف والتقطيع. الكميات صغيرة والجودة متفاوتة."
+   },
+   "rawPrice": {
+    "en": "≈ $1,500–2,300 / t",
+    "ar": "≈ 1,500–2,300$ للطن",
+    "src": "procres26"
+   },
+   "ratings": {
+    "supplyRisk": [
+     3,
+     {
+      "en": "Grown on small farms in Kordofan and Darfur, both hit by the war.",
+      "ar": "يُزرع في مزارع صغيرة في كردفان ودارفور، وكلاهما متأثر بالحرب."
+     }
+    ],
+    "marketSize": [
+     2,
+     {
+      "en": "Steady drink and tea demand in the Gulf and Europe; extracts are a smaller, higher-value niche.",
+      "ar": "طلب ثابت على المشروبات والشاي في الخليج وأوروبا؛ والمستخلصات سوق أصغر وأعلى قيمة."
+     }
+    ],
+    "easeOfStart": [
+     3,
+     {
+      "en": "Whole dried and tea-bag cut need only cleaning, cutting and steam treatment.",
+      "ar": "الكركديه الكامل والمقطع للأكياس يحتاج فقط تنظيفاً وتقطيعاً ومعالجة بالبخار."
+     }
+    ]
+   },
+   "pros": [
+    {
+     "en": [
+      "Demand close to home",
+      "Karkade is a popular drink in Saudi Arabia and the Gulf, with peaks in Ramadan."
+     ],
+     "ar": [
+      "طلب قريب",
+      "الكركديه مشروب شائع في السعودية والخليج، ويزيد الطلب في رمضان."
+     ]
+    },
+    {
+     "en": [
+      "Easy first product",
+      "Whole dried flowers and tea-bag cut need few machines."
+     ],
+     "ar": [
+      "منتج أول سهل",
+      "الزهور المجففة الكاملة والمقطعة للأكياس تحتاج آلات قليلة."
+     ]
+    },
+    {
+     "en": [
+      "Room to move up",
+      "Later you can add syrup, extract powder and natural red colour for higher prices."
+     ],
+     "ar": [
+      "مجال للتطور",
+      "لاحقاً يمكن إضافة الشراب والمستخلص واللون الأحمر الطبيعي بأسعار أعلى."
+     ]
+    },
+    {
+     "en": [
+      "Organic option",
+      "Organic hibiscus sells at a higher price in Europe."
+     ],
+     "ar": [
+      "خيار عضوي",
+      "الكركديه العضوي يُباع بسعر أعلى في أوروبا."
+     ]
+    }
+   ],
+   "cons": [
+    {
+     "en": [
+      "Small, scattered supply",
+      "Grown on small family farms in war-affected Kordofan and Darfur."
+     ],
+     "ar": [
+      "إمداد صغير ومتفرق",
+      "يُزرع في مزارع عائلية صغيرة في كردفان ودارفور المتأثرتين بالحرب."
+     ]
+    },
+    {
+     "en": [
+      "Quality varies",
+      "Sun drying brings dust and mould; the EU has strict limits on farm chemicals and bacteria."
+     ],
+     "ar": [
+      "جودة متفاوتة",
+      "التجفيف بالشمس يسبب الغبار والعفن؛ وللاتحاد الأوروبي حدود صارمة للمبيدات والبكتيريا."
+     ]
+    },
+    {
+     "en": [
+      "Many competing origins",
+      "Nigeria, Egypt, China and Thailand all sell hibiscus."
+     ],
+     "ar": [
+      "منافسة من دول كثيرة",
+      "نيجيريا ومصر والصين وتايلاند كلها تبيع الكركديه."
+     ]
+    },
+    {
+     "en": [
+      "No official price",
+      "Prices come from trade reports (about $1,500–2,300 per tonne for dried calyces); ask exporters for real quotes."
+     ],
+     "ar": [
+      "لا يوجد سعر رسمي",
+      "الأسعار من تقارير تجارية (نحو 1,500–2,300$ للطن للكؤوس المجففة)؛ اطلب عروض أسعار من المصدّرين."
+     ]
+    }
+   ]
+  }
+ }
+}
